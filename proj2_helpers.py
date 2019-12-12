@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-import subprocess 
-from pickle_vocab import *
-from cooc import *
-from glove_solution import *
+import csv
+import pickle
 
 
 def create_csv_submission(ids, y_pred, name):
@@ -24,25 +22,6 @@ def open_pickle_file(file_path):
     with open(file_path, 'rb') as f:
         obj = pickle.load(f)
     return obj
-            
-                
-# def create_dense_embeddings(txt_file):
-#     print('> running build_vocab.sh')
-#     subprocess.call(['./build_vocab.sh'])
-    
-#     print('> running cut_vocab.sh')
-#     subprocess.call(['./cut_vocab.sh'])
-    
-#     print('> running pickle_vocab')
-#     pickle_vocab()
-    
-#     print('> running cooc')
-#     cooc()
-    
-#     print('> running glove_solution')
-#     glove_solution(embedding_dim = 20)
-    
-    
-    
+
     
     
