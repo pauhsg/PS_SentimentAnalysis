@@ -297,16 +297,16 @@ def preprocessing(data):
 def remove_twt_duplicates(data):
     return list(dict.fromkeys(data))
 
-def save_pp_data1(data, file_name):
+def save_data_as_list(data, file_path):
     #save processed data in the format ['tweet1', 'tweet2', ...]
     print("> saving datas in the format ['tweet1', 'tweet2', ...]")
-    with open(file_name, "w") as output:
+    with open(file_path, "w") as output:
         output.write(str(data))
         
-def save_pp_data2(data, file_name):
+def save_data_as_lines(data, file_path):
     # save processed data in the format one tweet per line and no [] or ''
     print("> saving datas in the format one tweet per line and no [] or '' ")
-    File = open(file_name, 'w')
+    File = open(file_path, 'w')
     for element in data:
         File.write(element)
         File.write('\n')

@@ -18,6 +18,12 @@ def create_csv_submission(ids, y_pred, name):
         writer.writeheader()
         for r1, r2 in zip(ids, y_pred):
             writer.writerow({'Id':int(r1),'Prediction':int(r2)})
+        
+        
+def open_pickle_file(file_path):    
+    with open(file_path, 'rb') as f:
+        obj = pickle.load(f)
+    return obj
             
                 
 # def create_dense_embeddings(txt_file):
