@@ -17,59 +17,59 @@ regex = re.compile('[^A-Za-zÀ-ÿ]')
 sp = spacy.load('en_core_web_sm') 
 
 smileys = {
-    ':-)': '',
-    ':)': '',
-    ':-3': '',
-    ':3': '',
-    ':-]': '',
-    ':]': '',
-    ':->': '',
-    ':>': '',
-    ':-}': '',
-    ':}': '',
-    '=)': '',
-    '=]': '',
-    ':P': '',
-    ':p': '',
-    ':-P': '',
-    ':D': '',
-    ':-D': '',
-    'xD': '',
-    'XD': '',
-    '=D': '',
-    '=3': '',
-    ':-(': '',
-    ':(': '',
-    ':-[': '',
-    ':c': '',
-    ':-c': '',
-    ':[': '',
-    ':<': '',
-    ':-<': '',
-    ':-{': '',
-    ':{': '',
-    ':@': '',
-    ":'(": '',
-    ":-'(": '',
-    ":-')": '',
-    ":')": '',
-    ':-*': '',
-    ':*': '',
-    ':x': '',
-    'xx': '',
-    'xxx': '',
-    'xo': '',
-    'xoxo': '',
-    'xoxoxo': '',
-    'xoxoxox': '',
-    '<3': '',
+    ':-)': 'happy',
+    ':)': 'happy',
+    ':-3': 'happy',
+    ':3': 'happy',
+    ':-]': 'happy',
+    ':]': 'happy',
+    ':->': 'happy',
+    ':>': 'happy',
+    ':-}': 'happy',
+    ':}': 'happy',
+    '=)': 'happy',
+    '=]': 'happy',
+    ':P': 'happy',
+    ':p': 'happy',
+    ':-P': 'happy',
+    ':D': 'happy',
+    ':-D': 'happy',
+    'xD': 'happy',
+    'XD': 'happy',
+    '=D': 'happy',
+    '=3': 'happy',
+    ':-(': 'sad',
+    ':(': 'sad',
+    ':-[': 'sad',
+    ':c': 'sad',
+    ':-c': 'sad',
+    ':[': 'sad',
+    ':<': 'sad',
+    ':-<': 'sad',
+    ':-{': 'sad',
+    ':{': 'sad',
+    ':@': 'sad',
+    ":'(": 'sad',
+    ":-'(": 'sad',
+    ":-')": 'happy',
+    ":')": 'happy',
+    ':-*': 'happy',
+    ':*': 'happy',
+    ':x': 'sad',
+    'xx': 'happy',
+    'xxx': 'happy',
+    'xo': 'happy',
+    'xoxo': 'happy',
+    'xoxoxo': 'happy',
+    'xoxoxox': 'happy',
+    '<3': 'happy',
     ':-o': '',
     ':o': '',
     ':O': '',
     ':-O': '',
-    ';)': '',
-    ';-)': '',
-}    
+    ';)': 'happy',
+    ';-)': 'happy',
+}
     
 cList = {
     "ain't": "am not",
@@ -240,6 +240,9 @@ def expandContractions(text, c_re=c_re):
 def parse_smileys(tweet: List[str]) -> List[str]:
     return [smileys.get(word, word) for word in tweet]
 
+def remove_ids(test_data):
+    return [twt.split(',', 1)[-1] for twt in test_data]
+
 def preprocessing(data):
     
     print('> running preprocessing pipeline')
@@ -291,49 +294,26 @@ def preprocessing(data):
     
     return data 
 
-def remove_twt_duplicates(result):
-    # remove tweets duplicates
-    result_ = list(dict.fromkeys(result))
-    return result_
+def remove_twt_duplicates(data):
+    return list(dict.fromkeys(data))
 
-def save_preprocessed_data(data, file_names, remove_dup=False):
-    
-    print('> saving datas')
-    
-    if (remove_dup==False):
-        #save processed data in the format ['tweet1', 'tweet2', ...]
-        with open(file_names[0], "w") as output:
-            output.write(str(data))
+def save_pp_data1(data, file_name):
+    #save processed data in the format ['tweet1', 'tweet2', ...]
+    print("> saving datas in the format ['tweet1', 'tweet2', ...]")
+    with open(file_name, "w") as output:
+        output.write(str(data))
         
-        # save processed data in the format one tweet per line and no [] or ''
-        File=open(file_names[1], 'w')
-        for element in data:
-            File.write(element)
-            File.write('\n')
-        File.close()
-        
-    else:
-        
-        print('> removing duplicates')
-        
-        # remove tweets duplicates
-        data = list(dict.fromkeys(data))
-        
-        print('> saving datas w/out duplicates')
-        
-        #save processed data in the format ['tweet1', 'tweet2', ...]
-        with open(file_names[2], "w") as output:
-            output.write(str(data))
-        
-        # save processed data in the format one tweet per line and no [] or ''
-        File_=open(file_names[3], 'w')
-        for element in data:
-            File_.write(element)
-            File_.write('\n')
-        File_.close()
+def save_pp_data2(data, file_name):
+    # save processed data in the format one tweet per line and no [] or ''
+    print("> saving datas in the format one tweet per line and no [] or '' ")
+    File = open(file_name, 'w')
+    for element in data:
+        File.write(element)
+        File.write('\n')
+    File.close()
     
-    
-    
-    
-    
+
+
+        
+
     
