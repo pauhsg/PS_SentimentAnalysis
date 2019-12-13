@@ -23,8 +23,8 @@ def process_train_ML(pos, neg, vocabulary, embeddings, dim_emb):
     print('> process pos and neg datas to get X and y to perform ML')
     
     # seperate list of tweets in lines
-    pos = [x.strip() for x in pos[0].split(',')]
-    neg = [x.strip() for x in neg[0].split(',')]
+    #pos = [x.strip() for x in pos[0].split(',')]
+    #neg = [x.strip() for x in neg[0].split(',')]
     
     # extract mean word embeddings
     idx_pos_tweets, pos_tweets_word_vector, pos_tweets_mean_vector = extract_mean_word_vectors(pos, vocabulary, embeddings)

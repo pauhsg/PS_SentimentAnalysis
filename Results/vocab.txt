@@ -317,7 +317,7 @@
    1 adc
    1 adcc
    1 adcnksqeofvgh
- 400 add
+ 401 add
    2 addams
    1 adderbury
   78 addict
@@ -392,8 +392,8 @@
    4 admirer
    2 admires
    5 admission
- 150 admit
-   4 admits
+ 151 admit
+   3 admits
    1 admittedly
    2 adml
    1 adn
@@ -551,7 +551,7 @@
   16 agatha
    2 agazzari
    1 agdjhkoj
- 448 age
+ 449 age
   21 aged
    3 ageless
    2 agen
@@ -617,7 +617,7 @@
    1 aguirre
    1 agulaira
    1 agxksksb
-4947 aha
+4953 aha
    2 ahab
    1 ahahaaha
   56 ahahaha
@@ -1056,13 +1056,13 @@
    1 alps
    1 alqumar
    1 alre
-1241 already
+1242 already
    2 alri
- 401 alright
+ 403 alright
    2 alsh
    1 alshsma
    2 alsmiffy
- 799 also
+ 800 also
    2 alston
    1 alsultaniyeh
    6 alt
@@ -1136,12 +1136,12 @@
    2 amaury
    1 amaya
    1 amazayn
-  25 amaze
+  26 amaze
    1 amazeball
    5 amazeballs
   14 amazed
    2 amazes
-1448 amazing
+1451 amazing
   15 amazingly
    1 amazingness
  131 amazon
@@ -1474,11 +1474,11 @@
   39 announcement
    1 announcer
    3 announces
- 107 annoy
+ 111 annoy
    3 annoyance
    1 annoyances
   27 annoyed
- 199 annoying
+ 195 annoying
   10 annoys
    1 annua
   24 annual
@@ -1504,7 +1504,7 @@
    2 anorak
    1 anorexia
    5 anorexic
-1085 another
+1086 another
    5 anova
    1 ansah
    1 ansel
@@ -1601,7 +1601,7 @@
    1 anyoonnee
    1 anyplace
  925 anything
- 127 anytime
+ 128 anytime
  359 anyway
  148 anyways
  107 anywhere
@@ -1851,17 +1851,17 @@
    5 argo
    1 argon
    5 arguably
-  97 argue
-   3 arguing
+  98 argue
+   2 arguing
   36 argument
   38 argus
    2 argyle
-  26 ari
+  27 ari
   11 aria
    5 arian
   38 ariana
    5 arianator
-   2 arianators
+   3 arianators
   14 arianna
    4 arid
    3 arie
@@ -1906,7 +1906,8 @@
    2 armchair
   10 armed
    1 armenian
-   2 armhole
+   1 armhole
+   1 armholes
    1 arminian
    1 armless
   22 armour
@@ -2097,7 +2098,7 @@
    1 asimov
    1 asjjendkkedisndinwi
    1 asjsjdbjdkf
-1442 ask
+1444 ask
    1 askcould
    1 askdhdjfds
    1 askham
@@ -2123,7 +2124,7 @@
    1 aspiration
   62 aspire
    4 aspirin
- 287 ass
+ 289 ass
    1 assab
    5 assad
    1 assalammualaikum
@@ -2291,7 +2292,7 @@
    2 atrophy
   14 att
    5 atta
- 335 attach
+ 338 attach
    4 attache
    2 attached
   15 attachment
@@ -2395,7 +2396,7 @@
   22 aurora
    1 aurovilleradio
    5 aurum
-   6 aus
+   8 aus
    2 auschwitz
    2 aussa
    1 aussi
@@ -2410,8 +2411,8 @@
    1 austosaves
    2 austral
  151 australia
-  40 australian
-   3 australians
+  39 australian
+   4 australians
    1 australis
    7 austria
    9 austrian
@@ -2485,8 +2486,8 @@
    1 avars
   25 ave
    3 avec
-   8 avenge
-   3 avenged
+   9 avenge
+   2 avenged
  100 avenger
    1 avenir
    3 avens
@@ -2545,12 +2546,12 @@
   23 awareness
   17 awash
    1 awawawaa
-1081 away
+1082 away
    4 aways
    1 awb
- 165 awe
+ 166 awe
    2 awed
-1056 awesome
+1057 awesome
    1 awesomeiest
    2 awesomely
   10 awesomeness
@@ -2575,7 +2576,7 @@
    2 awright
    1 awrrhh
    5 awry
-1927 aww
+1936 aww
    1 awwdorbs
    1 awwreadyy
    1 awwuwuwuwuwuwu
@@ -2647,14 +2648,14 @@
    6 babble
   18 babby
    1 babbygirl
- 738 babe
+ 740 babe
    9 babel
    1 babergh
-  16 babes
+  19 babes
    1 baboon
    3 babs
    2 babur
-2143 baby
+2146 baby
    1 babyairdrop
    2 babyboyy
    1 babybrothers
@@ -2692,7 +2693,7 @@
    1 bacher
    4 bachmann
    1 bacillus
-5153 back
+5163 back
    3 backache
    4 backbone
    1 backbones
@@ -2741,7 +2742,7 @@
    1 bacterial
    1 bactericidal
    1 bacteriostat
-2698 bad
+2696 bad
    2 bada
    2 badal
    1 badawi
@@ -3168,7 +3169,7 @@
    1 battalion
   15 batten
   20 batter
- 538 battery
+ 541 battery
    1 battie
   12 batting
    1 battista
@@ -3241,7 +3242,7 @@
    1 bdn
   12 bea
    1 beaattss
- 319 beach
+ 320 beach
    1 beachbody
    1 beachcomber
    1 beachfront
@@ -3302,7 +3303,7 @@
    2 beaumont
   13 beaut
    3 beautician
-1284 beautiful
+1287 beautiful
   28 beautifully
    1 beautify
    1 beautifying
@@ -3392,7 +3393,7 @@
    1 befitting
    4 beforehand
    1 beforelong
- 306 befriend
+ 307 befriend
   33 befriends
    1 befuddle
   80 beg
@@ -3451,7 +3452,7 @@
    1 belconnen
    7 belegar
    1 beleiber
-  18 belfast
+  19 belfast
    2 belford
    1 belgacom
    9 belgian
@@ -3523,7 +3524,7 @@
    1 benali
   43 bench
    5 benchmark
-  40 bend
+  41 bend
    1 bendable
    9 bender
    1 bendery
@@ -3556,7 +3557,7 @@
    4 benny
    2 benoit
   11 benson
-  13 bent
+  12 bent
    1 bentham
    9 bentley
    2 benton
@@ -3636,7 +3637,7 @@
    1 bessfrann
    1 bessfrienn
   77 bessie
-3002 best
+3010 best
    1 bestagricultureblog
    1 bestbrother
    1 bestbuddy
@@ -3776,11 +3777,11 @@
    2 biersack
    8 biff
    2 bifocal
-1938 big
+1936 big
    1 bigbootytjones
    1 bigdeuce
   11 bigg
-  21 bigger
+  24 bigger
    2 biggest
   18 biggie
    3 biggin
@@ -3921,11 +3922,10 @@
    2 biro
    1 birr
    1 birt
-  55 birth
+  56 birth
    2 birthdate
-1892 birthday
+1897 birthday
    1 birthdaygirl
-   1 birthing
    1 birthmark
    1 birthparents
    1 birthright
@@ -4130,12 +4130,12 @@
    3 blob
    1 bloc
    2 bloch
- 198 block
+ 200 block
    1 blockade
    1 blockage
    5 blockbuster
    4 blocker
-   2 blocking
+   1 blocking
    1 blocky
    1 blogconme
    1 bloggs
@@ -4496,15 +4496,15 @@
    2 borderlands
    3 borderline
    1 bordertown
- 177 bore
+ 181 bore
    1 boreal
    1 borealis
- 455 bored
+ 452 bored
   26 boredom
    2 borg
    1 borgia
    1 borin
- 198 boring
+ 197 boring
    1 boriqua
    8 boris
    1 borja
@@ -4589,7 +4589,7 @@
    1 bourne
    4 bournemouth
    1 bousquet
- 641 bout
+ 642 bout
    1 bouteille
   15 boutique
    5 bovine
@@ -4695,7 +4695,7 @@
    8 bran
    1 branca
   26 branch
- 623 brand
+ 628 brand
    2 brandenburg
    1 brando
   45 brandon
@@ -4970,7 +4970,7 @@
    1 brothersthis
    1 brouhaha
    1 brounstein
-  50 brow
+  51 brow
  427 brown
    1 browne
    1 browner
@@ -5341,7 +5341,7 @@
    1 buurrnss
    1 buvelelwe
    2 buxton
- 984 buy
+ 985 buy
   14 buyer
   41 buying
    3 buyout
@@ -5363,7 +5363,7 @@
    1 bwhahahahha
    1 bwjoodk
    1 bwuahaha
- 369 bye
+ 370 bye
    1 bykeljet
    1 byng
    5 bypass
@@ -5772,7 +5772,7 @@
    2 cardus
    3 cardwell
    1 cardy
- 884 care
+ 885 care
    1 caredivas
   96 career
    1 careerbuilder
@@ -5985,9 +5985,9 @@
    1 cataract
    4 catarrh
    2 catastrophe
- 552 catch
+ 553 catch
   13 catcher
-   4 catching
+   3 catching
   18 catchy
    1 catechism
    1 categorical
@@ -6138,7 +6138,7 @@
    2 celibate
    3 celica
    1 celinators
- 220 cell
+ 223 cell
    9 cellar
    3 cello
    2 cellophane
@@ -6211,9 +6211,9 @@
    1 certifect
   16 certificate
   18 certification
-   3 certified
+   2 certified
    1 certifies
-  51 certify
+  52 certify
    1 cerulean
    1 cervantes
    1 cervical
@@ -6399,7 +6399,7 @@
   26 chasing
    4 chassis
    1 chastise
- 277 chat
+ 278 chat
    1 chatam
    3 chatham
    1 chatrapathi
@@ -6431,10 +6431,10 @@
    7 cheater
    4 cheating
    1 chechen
- 836 check
+ 838 check
    1 checked
   12 checker
-  12 checking
+  11 checking
    5 checklist
    1 checklists
   14 checkout
@@ -6799,7 +6799,7 @@
    3 chung
   14 chunk
   16 chunky
- 149 church
+ 150 church
    1 churchflow
    3 churchill
    1 churchquitoes
@@ -6968,7 +6968,7 @@
    8 claro
   14 clash
    2 clasp
-1043 class
+1044 class
    1 classe
  490 classic
   31 classical
@@ -7028,7 +7028,7 @@
    1 cleary
    9 cleat
    2 cleavage
-   4 cleave
+   5 cleave
    1 cleaver
    1 cleenfreek
    1 cleese
@@ -7114,7 +7114,7 @@
    1 clonebrews
    1 cloosest
    1 clos
- 602 close
+ 603 close
   29 closed
    4 closely
   24 closer
@@ -7132,7 +7132,7 @@
   98 cloud
   21 cloudy
    5 clout
-   6 clove
+   5 clove
   12 clover
    1 clovers
    1 cloves
@@ -7441,7 +7441,7 @@
    2 combined
   65 combo
    1 combustible
-5442 come
+5446 come
   68 comeback
    4 comecon
   16 comedian
@@ -7596,7 +7596,7 @@
   14 complicate
   21 complicated
    2 complication
-  76 compliment
+  77 compliment
    2 complimentary
    8 comply
    1 compmgr
@@ -7659,7 +7659,7 @@
    2 conceptual
   38 concern
    9 concerned
- 479 concert
+ 480 concert
   14 concerto
    3 concertos
    2 concession
@@ -7763,7 +7763,7 @@
    1 congested
    3 congestion
    5 congo
- 338 congrats
+ 339 congrats
   10 congratulate
  118 congratulation
    1 congratuleisions
@@ -8206,7 +8206,7 @@
    2 coughcough
    1 coughdrops
    2 coughing
-3049 could
+3050 could
    1 coulson
    2 coun
   18 council
@@ -8246,7 +8246,7 @@
    1 cource
    5 courier
    4 cours
- 554 course
+ 557 course
   13 coursebook
    2 coursebooks
    1 courseware
@@ -8371,8 +8371,7 @@
    1 crankbrothers
    1 cranking
    8 cranky
- 181 crap
-   1 crapping
+ 182 crap
   24 crappy
    1 craptastic
   83 crash
@@ -8577,9 +8576,9 @@
    1 crowes
    1 crowfoot
    4 crowley
-  44 crown
+  45 crown
    2 crowne
-   2 crowning
+   1 crowning
    1 crowood
    1 crowsaussie
    1 croxton
@@ -8623,8 +8622,7 @@
    6 crust
    1 crustaceans
    5 crusty
-  12 crutch
-   1 crutches
+  13 crutch
    9 crux
   12 cruz
 1834 cry
@@ -8678,7 +8676,7 @@
   14 cucumber
    2 cucusoft
   28 cud
- 313 cuddle
+ 314 cuddle
    1 cuddled
    1 cuddlekins
    1 cuddlemonster
@@ -8811,20 +8809,20 @@
   96 customer
    1 customising
   13 customize
-1128 cut
+1126 cut
    1 cutaquatuff
    3 cutaway
    4 cutback
-1405 cute
+1406 cute
    7 cuteness
    1 cuteporn
-   6 cutest
+   9 cutest
    1 cutestuff
    1 cutesy
    2 cuthbert
    3 cuticle
    1 cuticles
- 125 cutie
+ 126 cutie
    1 cutiepiie
   15 cutlery
    1 cutlets
@@ -8911,7 +8909,7 @@
    1 dadavsdhoni
    8 dadda
    1 daddah
- 262 daddy
+ 263 daddy
    1 daddydenden
    1 daddygod
    3 dade
@@ -9020,7 +9018,7 @@
    1 danburoba
    1 danbury
    2 danby
- 559 dance
+ 558 dance
    1 danceanna
    3 dancefloor
    1 dancemoms
@@ -9030,7 +9028,7 @@
    1 dancerena
    1 dancermorel
    1 dancetryouts
- 108 dancing
+ 109 dancing
    1 dancingdiamondv
    4 dandelion
    1 dandenong
@@ -9052,7 +9050,7 @@
    2 daniela
    2 daniele
    1 daniellagrave
-  67 danielle
+  68 danielle
    1 danios
   16 danish
    2 danjit
@@ -9083,7 +9081,7 @@
    5 dara
    2 darby
   15 darcy
-  91 dare
+  92 dare
    1 daredevil
    2 daredoll
    2 darfur
@@ -9103,7 +9101,7 @@
    1 darkroom
    3 darkstar
    1 darktales
-  85 darling
+  86 darling
    2 darlington
    1 darman
   55 darn
@@ -9152,7 +9150,7 @@
    1 daunelee
    2 daunting
    1 dauntless
-  52 dave
+  53 dave
    1 davenport
    6 davers
    4 davey
@@ -9177,7 +9175,7 @@
    1 dawlish
   58 dawn
    3 dawson
-8056 day
+8062 day
    6 daya
    2 dayan
    3 daybreak
@@ -9187,7 +9185,7 @@
    2 dayglo
    1 dayglowin
    7 daylight
-  14 days
+  16 days
    1 daysack
    7 daytime
    3 dayton
@@ -9218,7 +9216,7 @@
    2 dde
    1 ddfdfe
    1 ddoubleezy
- 293 ddr
+ 296 ddr
    3 ddt
   12 dea
    4 deacon
@@ -9605,12 +9603,12 @@
    1 depose
   11 deposit
   11 depot
- 120 depress
+ 122 depress
    1 depressaints
    1 depressant
- 113 depressed
+ 112 depressed
    5 depresses
- 103 depressing
+ 102 depressing
   45 depression
    1 depressive
    4 deprivation
@@ -9679,9 +9677,9 @@
    7 dese
   36 desert
    1 deserted
- 257 deserve
+ 256 deserve
   17 deserved
-  20 deserves
+  21 deserves
    1 deshauna
   20 desi
  615 design
@@ -9763,9 +9761,9 @@
   21 dev
    2 deva
    2 devaluation
-  15 devastate
+  16 devastate
    2 devastated
-  10 devastating
+   9 devastating
    1 devastation
   63 develop
    1 developed
@@ -9950,7 +9948,7 @@
    2 diggs
    4 dighton
    1 digidesign
-  19 digit
+  18 digit
  425 digital
    1 digitalcameras
    1 digitalgui
@@ -9959,7 +9957,7 @@
    1 digitise
    2 digitize
    1 digitizing
-   3 digits
+   4 digits
    1 dignan
    1 dignified
    8 dignity
@@ -10054,7 +10052,7 @@
    1 direcetioners
  114 direct
    1 directing
- 634 direction
+ 635 direction
    1 directional
    1 directionaters
    8 directionator
@@ -10087,10 +10085,10 @@
   61 disappear
    2 disappearance
    1 disappearing
-  58 disappoint
+  59 disappoint
   91 disappointed
    1 disappointedaboutyourbody
-  23 disappointing
+  22 disappointing
    1 disappointingly
   23 disappointment
    5 disarmament
@@ -10150,9 +10148,9 @@
    3 disgraceful
    1 disgruntle
    8 disguise
-  13 disgust
+  14 disgust
    1 disgusted
-  38 disgusting
+  37 disgusting
   66 dish
    1 dishcloth
    4 disheartened
@@ -10269,11 +10267,11 @@
    1 ditunggu
    1 ditusuk
    5 div
-  35 diva
+  36 diva
    1 divaderme
    2 divan
    1 divans
-   5 divas
+   4 divas
    1 divatwins
   41 dive
   11 diver
@@ -10410,7 +10408,7 @@
    1 dolerite
    1 dolgo
    2 dolichos
- 131 doll
+ 132 doll
   92 dollar
    3 dolled
    1 dollop
@@ -10644,8 +10642,8 @@
    1 draculaura
   81 draft
    1 drafting
-  60 drag
-   2 dragging
+  61 drag
+   1 dragging
   71 dragon
    4 dragonball
   15 dragonfly
@@ -10675,12 +10673,12 @@
    4 drastic
    2 drat
    1 draught
- 244 draw
+ 246 draw
    1 drawback
    1 drawbridge
    2 drawcord
   38 drawer
-  68 drawing
+  67 drawing
    5 drawl
    1 drawling
    1 drawsomething
@@ -10696,7 +10694,7 @@
    2 dreading
    1 dreadlock
    2 dreadnought
- 958 dream
+ 959 dream
    1 dreamchasers
    1 dreamcoat
   15 dreamer
@@ -10710,6 +10708,7 @@
    1 dreamscape
    1 dreamstyledoodles
    1 dreamsweet
+   1 dreamt
    1 dreamteam
    1 dreamtime
    2 dreamwork
@@ -10855,7 +10854,7 @@
    1 duanelee
    1 duanje
    1 duanya
-  29 dub
+  30 dub
   32 dubai
   28 dubh
   32 dublin
@@ -11080,9 +11079,9 @@
    1 earflaps
    1 earful
   15 earl
- 165 earlier
+ 166 earlier
    1 earlston
- 921 early
+ 920 early
    1 earlybirds
    1 earlybirthday
    1 earlyrise
@@ -11117,7 +11116,7 @@
   32 ease
    6 easel
    2 easement
-  10 easier
+  11 easier
  103 easily
    1 easiness
  110 east
@@ -11130,7 +11129,7 @@
    7 easton
    5 eastside
    8 eastwood
- 551 easy
+ 550 easy
    1 easycord
    2 easyfinder
    1 easyfindermap
@@ -11568,10 +11567,10 @@
    1 embargo
    9 embark
    7 embarks
-  19 embarrass
-  27 embarrassed
+  22 embarrass
+  26 embarrassed
    2 embarrasses
-  49 embarrassing
+  47 embarrassing
    1 embarrassingly
    4 embarrassment
    4 embassy
@@ -11801,7 +11800,8 @@
    7 enhancement
   29 enhancer
    1 enid
-   5 enigma
+   4 enigma
+   1 enigmas
    2 enigmatic
  839 enjoy
   13 enjoyable
@@ -11856,11 +11856,11 @@
   26 enterprise
    1 enterprising
    2 enters
-  51 entertain
+  52 entertain
    4 entertainer
   23 entertaining
   85 entertainment
-   3 entertains
+   2 entertains
    4 enthusiasm
   17 enthusiast
    5 enthusiastic
@@ -12254,7 +12254,7 @@
    2 events
   43 eventually
    1 evenwood
-1774 ever
+1778 ever
    1 everard
    1 everdearest
    1 everdene
@@ -12281,7 +12281,7 @@
    2 everygirl
   11 everyman
    1 everymorning
-1402 everyone
+1403 everyone
    1 everyones
    1 everypetowner
 1238 everything
@@ -12318,7 +12318,7 @@
    1 ewing
    1 ewood
   52 exact
- 284 exactly
+ 285 exactly
    5 exaggerate
    1 exaggerated
    4 exaggeration
@@ -12355,8 +12355,8 @@
    1 excess
    5 excessive
   27 exchange
- 237 excite
- 654 excited
+ 243 excite
+ 648 excited
   30 excitement
  117 exciting
    6 exclamation
@@ -12541,8 +12541,8 @@
    1 eyden
  811 eye
    5 eyeball
-  37 eyebrow
-   3 eyebrows
+  35 eyebrow
+   5 eyebrows
   17 eyed
    1 eyedbelle
    1 eyeguard
@@ -12580,8 +12580,9 @@
    1 fabozzi
    1 fabregas
    1 fabrevans
-  93 fabric
+  92 fabric
    1 fabrication
+   1 fabrics
    2 fabsugar
   75 fabulous
    1 fabuloustobi
@@ -12870,8 +12871,8 @@
   85 favor
  566 favorite
   48 favour
- 233 favourite
-   9 favourites
+ 234 favourite
+   8 favourites
    1 favouritism
    1 favrioute
    2 fawcus
@@ -12937,11 +12938,11 @@
   11 feeder
   14 feeding
    7 feedzilla
-3858 feel
+3862 feel
    2 feeler
    2 feelgood
    1 feelike
- 569 feeling
+ 566 feeling
    1 feelinsexy
    1 feeney
    1 feetprovides
@@ -13181,7 +13182,7 @@
    1 finalising
    9 finalist
    2 finalize
- 820 finally
+ 822 finally
   47 finance
   37 financial
    4 financially
@@ -13189,13 +13190,13 @@
    1 financing
   17 finch
    1 finches
-1926 find
+1927 find
    1 findelkind
   22 finder
   19 finding
    1 findlay
    1 findsomeone
- 671 fine
+ 673 fine
    2 finely
   14 finepix
    2 finer
@@ -13380,8 +13381,8 @@
    3 flats
    3 flatscreen
    2 flatten
-  14 flatter
-   4 flattered
+  13 flatter
+   5 flattered
    4 flattering
    3 flattery
    6 flatts
@@ -13477,9 +13478,10 @@
   23 flop
   17 floppy
    1 flor
-   8 flora
+   7 flora
    2 floracraft
   29 floral
+   1 floras
   15 florence
    2 florentine
    2 flores
@@ -13585,13 +13587,13 @@
    1 folky
    1 follett
    4 follicle
-6952 follow
+7010 follow
    1 followaahhs
   84 followback
    6 followed
- 995 follower
+ 999 follower
    1 followhim
-  66 following
+  67 following
    1 follownya
    1 followplz
    2 follows
@@ -13766,7 +13768,7 @@
    1 fortunetelli
   14 forty
   24 forum
- 452 forward
+ 453 forward
    1 foss
   10 fossil
    1 fossils
@@ -13878,8 +13880,8 @@
    1 frcn
    6 fre
    1 freaazzing
- 322 freak
-  18 freaking
+ 321 freak
+  19 freaking
    4 freakish
    1 freakonomics
   30 freaky
@@ -13971,7 +13973,7 @@
    1 frieda
    3 friedland
    3 friedrich
-3053 friend
+3054 friend
    1 friendless
   88 friendly
    6 friends
@@ -14109,8 +14111,9 @@
    4 fulfillment
    1 fulfils
    5 fulham
- 707 full
+ 706 full
   72 fullback
+   1 fullest
    4 fullmetal
    2 fullness
    1 fullsleeve
@@ -14134,9 +14137,9 @@
    1 fundamentalist
    1 fundamentals
    2 funding
-   2 fundraise
+   3 fundraise
    5 fundraiser
-   5 fundraising
+   4 fundraising
   48 funeral
    2 fungal
    1 fungasoap
@@ -14151,10 +14154,10 @@
    1 funmbiycarterjr
    1 funnaayy
    7 funnel
-   3 funnier
+   2 funnier
   43 funniest
    3 funnily
- 889 funny
+ 890 funny
    1 fuqwitalatina
   23 fur
    1 furby
@@ -14656,7 +14659,7 @@
    1 gesso
    2 gestation
    4 gesture
-16636 get
+16641 get
   13 getaway
    1 gethart
    1 gethsemane
@@ -14814,7 +14817,7 @@
   13 giraffe
    5 girardelli
    1 giraud
-3363 girl
+3365 girl
    2 girlfrann
    1 girlfranns
    2 girlfri
@@ -14850,7 +14853,7 @@
    1 giulia
    1 giuseppe
    1 giusto
-2298 give
+2299 give
   37 giveaway
    3 giver
    1 giverny
@@ -15111,7 +15114,7 @@
    1 gonzalo
   84 goo
    1 gooch
-9220 good
+9195 good
    4 goodafternoon
    5 goodall
    1 goodbody
@@ -15132,7 +15135,7 @@
    1 goodmorninqq
    1 goodmorrningg
   67 goodness
- 499 goodnight
+ 500 goodnight
    1 goodnights
    2 goodnitee
    1 goodreads
@@ -15361,7 +15364,7 @@
   24 grease
    1 greaser
    7 greasy
-2558 great
+2564 great
    1 greater
    5 greatest
    1 greathaven
@@ -15373,8 +15376,8 @@
   21 greece
    2 greed
   13 greedy
-  71 greek
-   1 greeks
+  70 greek
+   2 greeks
  443 green
    5 greenbelt
    1 greenberg
@@ -15583,7 +15586,7 @@
    5 guerra
    1 guerre
    4 guerrilla
-1040 guess
+1041 guess
   59 guest
    1 guesthouses
    4 guestlist
@@ -15687,7 +15690,7 @@
    4 gutting
    1 guud
    1 guvnor
-2332 guy
+2333 guy
    4 guyana
    1 guythis
    2 gvhd
@@ -15738,13 +15741,13 @@
    1 habitual
    2 haci
    2 hacienda
-  93 hack
+  92 hack
    1 hackaday
    2 hacked
   14 hacker
    4 hackett
    1 hackfall
-   7 hacking
+   8 hacking
    2 hackney
    1 haddad
    1 haddeliberately
@@ -15939,7 +15942,7 @@
    8 halifax
    1 halima
    8 halite
-  96 hall
+  95 hall
    2 hallam
    1 hallas
    9 halle
@@ -15956,7 +15959,7 @@
    1 halloweenies
    1 hallowmagic
    6 hallows
-   1 halls
+   2 halls
    1 hallstrm
    1 hallucination
   18 hallway
@@ -16060,7 +16063,7 @@
   30 handy
    7 handyman
    1 hanff
- 451 hang
+ 452 hang
   11 hangar
   22 hanger
   27 hanging
@@ -16096,7 +16099,7 @@
    3 hapless
    1 hapoyye
    1 happ
-1190 happen
+1192 happen
    9 happening
    5 happens
    1 happenstance
@@ -16105,7 +16108,7 @@
   31 happily
   98 happiness
    1 happwhither
-3370 happy
+13922 happy
    1 happyanniv
    5 happybirthday
    1 happybirthdaydayjayp
@@ -16233,13 +16236,13 @@
    4 hasan
    7 hasbro
    2 hasch
-  63 hash
+  64 hash
    1 hashbrown
    2 hashchange
    1 hashemi
    2 hashim
    2 hashimoto
-  11 hashing
+  10 hashing
    1 hashish
    1 hashtagged
    1 hashtagger
@@ -16268,7 +16271,7 @@
   11 hatch
    1 hatchery
    4 hatchet
-2139 hate
+2142 hate
    1 hateful
    1 hatehatehatehate
    1 hatehatehatehatehate
@@ -16393,7 +16396,7 @@
    1 hdusifhdusfh
    4 hdv
   15 hea
-1061 head
+1062 head
  236 headache
    1 headaches
   25 headband
@@ -16443,7 +16446,7 @@
    1 healy
   25 heap
    2 heaps
-1227 hear
+1228 hear
    2 heareth
   38 hearing
    1 hearken
@@ -16578,7 +16581,7 @@
    2 helipad
    5 helium
    6 helix
- 614 hell
+ 615 hell
   80 hella
    4 hellas
    1 hellatious
@@ -16591,7 +16594,7 @@
    1 hellish
    2 hellman
    1 hellmann
- 537 hello
+ 538 hello
    1 hellohello
    1 hellokitty
    1 hellomellow
@@ -16608,10 +16611,10 @@
    2 helmeted
    1 helmickks
    2 helmut
-1566 help
+1568 help
   10 helper
   25 helpful
-   6 helping
+   4 helping
    7 helpless
    3 helpline
    1 helppopp
@@ -16724,7 +16727,7 @@
    1 hewn
  112 hex
    4 hexagon
-1817 hey
+1823 hey
    4 heydon
    1 heyheyhey
    1 heyheyheyhey
@@ -16894,7 +16897,7 @@
   57 historical
  388 history
    1 historyproduct
- 722 hit
+ 723 hit
   13 hitachi
   17 hitch
    1 hitchcock
@@ -17036,7 +17039,7 @@
    6 hom
    7 homage
    1 homaygadd
-2701 home
+2703 home
    1 homealone
    3 homeboy
    1 homeboys
@@ -17161,7 +17164,7 @@
    1 hoovered
  344 hop
    1 hopchik
-2875 hope
+2879 hope
    9 hopeful
  486 hopefully
    1 hopegiver
@@ -17458,13 +17461,13 @@
    6 humpty
    1 humungousaur
    1 humus
- 241 hun
+ 244 hun
    2 hunch
    6 hunchback
    1 hund
    1 hundo
   50 hundred
-  14 hung
+  13 hung
   27 hungarian
   11 hungary
  124 hunger
@@ -17502,10 +17505,10 @@
    5 hurray
   16 hurricane
  218 hurry
-1115 hurt
+1116 hurt
    1 hurtado
    6 hurtful
-  27 hurting
+  26 hurting
    1 hurty
    2 hurwitz
    1 hurworth
@@ -17648,7 +17651,7 @@
    2 ibex
    1 ibhadike
   19 ibiza
- 227 ibm
+ 231 ibm
    1 ibms
    6 ibn
    6 ibo
@@ -17694,7 +17697,7 @@
    6 ico
    1 icom
  151 icon
-  15 iconic
+  16 iconic
    1 iconoclast
    4 icp
    1 icrc
@@ -17823,7 +17826,7 @@
    2 ilibagiza
    1 iliescosmin
    2 ilk
-1198 ill
+1199 ill
   24 illegal
    5 illegally
    1 illegitimate
@@ -18074,9 +18077,9 @@
    3 inclement
    2 incline
    1 inclined
- 448 include
+ 447 include
    1 included
-   2 including
+   3 including
    2 inclusion
    1 inclusions
    5 inclusive
@@ -18401,11 +18404,11 @@
    6 inspection
   10 inspector
    1 inspiracion
- 125 inspiration
+ 126 inspiration
   26 inspirational
- 178 inspire
+ 179 inspire
    2 inspires
-  20 inspiring
+  19 inspiring
    2 inst
    1 instability
    1 instagam
@@ -18460,8 +18463,7 @@
    5 insulated
    2 insulation
    1 insulfrog
-  23 insult
-   1 insulting
+  25 insult
   39 insurance
    4 insure
    5 insures
@@ -18816,7 +18818,7 @@
    3 islamabad
   11 islamic
    1 islamiyah
- 139 island
+ 140 island
    2 islander
    1 islay
   15 isle
@@ -18840,7 +18842,7 @@
   28 israel
   13 israeli
    1 israelite
-  33 iss
+  32 iss
    4 issa
    1 issey
    2 issi
@@ -18862,7 +18864,7 @@
    4 ita
    1 itaewon
    5 italia
- 100 italian
+ 101 italian
    1 italiana
    1 italianni
    2 italic
@@ -18898,7 +18900,7 @@
    1 itsourkidrauhl
    1 itssgone
    1 itsurbandrug
-  59 itt
+  60 itt
    1 itto
    1 ittybittythick
   23 itu
@@ -19141,7 +19143,7 @@
    1 jawara
    1 jawline
    1 jawzi
- 128 jay
+ 129 jay
    7 jaya
    3 jaye
    1 jayesslee
@@ -20100,7 +20102,7 @@
    1 kfjejsjsjxjdjd
    1 kft
    1 kfz
- 530 kgb
+ 532 kgb
    2 kgi
    1 kgnbgtini
    1 kgoes
@@ -20152,9 +20154,10 @@
  925 kid
   19 kidd
    4 kiddie
+   1 kiddies
   26 kidding
    9 kiddo
-   9 kiddy
+   8 kiddy
    1 kidfolio
    2 kidkraft
    1 kidnafun
@@ -20188,13 +20191,13 @@
    1 kiligvibes
    1 kilimanjaro
    1 kilkenny
- 707 kill
+ 708 kill
    2 killas
    1 killeen
   87 killer
    1 killerbee
   18 killin
-  48 killing
+  47 killing
    1 killingppl
    1 killion
    3 killjoy
@@ -20203,10 +20206,11 @@
    1 killz
    1 kilmarnock
    1 kiln
-   6 kilo
+   5 kilo
    1 kiloderm
    1 kilograms
    1 kilometer
+   1 kilos
    1 kilowatt
    1 kilroy
    2 kilt
@@ -20302,7 +20306,7 @@
    1 kissnhugs
    5 kissy
    1 kissyourforehead
- 768 kit
+ 770 kit
    1 kitaiya
    2 kitaj
    1 kitangan
@@ -20400,7 +20404,7 @@
    1 knorr
   16 knot
    1 knott
-8367 know
+8378 know
   13 knowing
    1 knowingly
    1 knowland
@@ -20693,11 +20697,10 @@
    1 laffer
    2 lafferty
    2 laffin
-  85 lag
+  86 lag
    1 lage
    5 lager
    1 lagerfeld
-   1 lagging
   12 lagoon
    5 lagos
    5 laguna
@@ -20803,7 +20806,8 @@
    1 langstroth
    1 langton
    1 languag
- 168 language
+ 167 language
+   1 languages
    2 langue
    1 languidly
    2 languish
@@ -20838,7 +20842,7 @@
    1 lapointe
    1 laporte
    1 lapp
- 530 laptop
+ 531 laptop
    1 laquisha
    8 lar
    7 lara
@@ -20895,10 +20899,10 @@
    5 lat
    6 lata
   10 latch
- 822 late
+ 821 late
  159 lately
    1 lateness
- 644 later
+ 645 later
    1 lateral
    2 lateran
    3 lates
@@ -21036,7 +21040,7 @@
   74 leader
   27 leadership
    1 leading
-  64 leaf
+  63 leaf
    2 leaflet
   90 league
   12 leah
@@ -21067,7 +21071,7 @@
  271 leather
    4 leatherbull
    2 leatherette
-2056 leave
+2059 leave
    1 leaved
    1 leaven
    5 leaver
@@ -21113,7 +21117,7 @@
    1 leeward
    1 leeway
    1 lefabkbobo
- 119 left
+ 120 left
    1 lefthand
    1 leftish
    2 leftist
@@ -21233,7 +21237,7 @@
    4 leprechaun
    1 leprous
    2 leroy
-   2 les
+   3 les
   40 lesbian
    1 lesbianism
    1 lesbos
@@ -21244,11 +21248,11 @@
    1 lessee
    5 lessen
    1 lessing
- 192 lesson
-  16 lessons
+ 191 lesson
+  17 lessons
    2 lest
    4 lester
-2657 let
+2662 let
    8 letdown
   12 lethal
    3 lethargic
@@ -21322,7 +21326,7 @@
    4 liable
    1 liaise
    1 liaison
- 623 liam
+ 625 liam
    2 liang
    2 lianne
   43 liar
@@ -21386,7 +21390,7 @@
    1 lieutenant
    1 lif
    1 lifapoop
-2679 life
+2677 life
    1 lifeasamandavian
    3 lifeboat
    1 lifecycle
@@ -21417,14 +21421,14 @@
  110 lift
    5 ligament
    1 ligate
- 625 light
+ 624 light
    1 lightbody
    4 lightbulb
    1 lightdays
    1 lighted
    8 lighten
    1 lightening
-   6 lighter
+   7 lighter
    3 lightfoot
    1 lighthearted
    2 lighthouse
@@ -21440,7 +21444,7 @@
    1 lightworker
    2 liikkee
   23 lik
-9385 like
+9386 like
    1 likeable
    1 likelihood
   57 likely
@@ -21450,7 +21454,7 @@
    1 likeudid
   12 likewise
    1 likeyouh
-  15 liking
+  16 liking
    1 likk
  487 lil
    3 lila
@@ -21590,11 +21594,11 @@
    1 lisroreki
    4 lissa
    1 lisson
- 307 list
- 776 listen
+ 308 list
+ 778 listen
    3 listened
   10 listener
-  70 listening
+  68 listening
    1 listens
    2 lister
    1 listic
@@ -21631,7 +21635,7 @@
    1 litxaiphone
    1 liu
   17 liv
-2129 live
+2134 live
    1 liveblogging
    2 livecube
    1 livelihood
@@ -21701,11 +21705,11 @@
    1 lner
   23 lng
    2 loa
- 264 load
+ 265 load
    1 loadable
   12 loaded
    5 loader
-  12 loading
+  11 loading
    2 loadsa
   10 loaf
    6 loafer
@@ -21783,7 +21787,7 @@
   12 lok
    1 lokerindonesia
    4 loki
-7483 lol
+7485 lol
   44 lola
    4 lolita
   83 loll
@@ -21827,7 +21831,7 @@
  238 lonely
   36 loner
    9 lonesome
-1747 long
+1748 long
    1 longboarding
    1 longbow
    2 longchamp
@@ -21855,7 +21859,7 @@
  227 loo
    1 looe
    7 loofah
-4379 look
+4381 look
    1 lookalike
    1 lookback
   20 looking
@@ -21913,7 +21917,7 @@
    1 loses
    5 losing
    1 losipart
- 131 loss
+ 132 loss
   21 lost
    1 lostperplexed
    1 lostprohets
@@ -21962,7 +21966,7 @@
    8 lovable
    1 lovage
   14 lovat
-10616 love
+10645 love
    4 loveable
    3 lovebird
    2 lovebirds
@@ -21978,7 +21982,7 @@
    2 lovell
    1 lovelornloveworn
    1 lovelovelove
- 556 lovely
+ 558 lovely
  107 lover
    1 loverofink
    5 lovesexy
@@ -22068,13 +22072,13 @@
    8 lucifer
    1 lucille
    1 lucius
- 795 luck
+ 796 luck
    2 luckey
    3 luckiest
   19 luckily
    1 luckless
    2 lucknow
- 728 lucky
+ 729 lucky
    1 luckyone
    1 luckypacks
    1 lucona
@@ -22474,14 +22478,14 @@
    2 mailer
    4 mailing
    1 mailtwitter
- 144 main
+ 143 main
   31 maine
    1 maingay
    1 maingear
    6 mainland
   14 mainly
    1 mainman
-   1 mains
+   2 mains
    1 mainsqueeze
    3 mainstay
    5 mainstream
@@ -22528,7 +22532,7 @@
    4 makassar
    9 makati
    1 makaylas
-7046 make
+7047 make
   12 makeover
    1 makepeace
  102 maker
@@ -22759,7 +22763,7 @@
  971 many
    1 manydjs
    2 manz
-1414 mao
+1415 mao
    5 maori
  192 map
    2 mapguides
@@ -23088,7 +23092,7 @@
   47 matte
    1 mattel
    3 matteo
- 343 matter
+ 344 matter
   31 matthew
    3 matthews
    5 mattie
@@ -23145,7 +23149,7 @@
    1 maxted
   14 maxwell
    1 maxx
-1087 may
+1088 may
   22 maya
    1 mayabang
    1 mayakovsky
@@ -23317,7 +23321,7 @@
   88 meal
    1 meall
    3 mealtime
-1750 mean
+1751 mean
    1 meander
    1 meanest
   18 meanie
@@ -23404,7 +23408,7 @@
    1 medusa
    1 medvedev
    3 medway
- 402 mee
+ 405 mee
    1 meeaanss
    5 meech
    1 meegan
@@ -23419,8 +23423,8 @@
    1 meeradeep
    1 meerkats
    1 meester
-1426 meet
- 185 meeting
+1427 meet
+ 184 meeting
    1 mefenamic
    1 meffert
   24 meg
@@ -23463,7 +23467,7 @@
    5 mek
    1 mekiyah
    1 mekong
-  32 mel
+  33 mel
    2 mela
    1 melaleuca
    1 melamine
@@ -23531,7 +23535,7 @@
    3 memorise
   12 memorize
    2 memorized
- 874 memory
+ 877 memory
    1 memorycard
    1 memoryframe
    1 memorystick
@@ -23579,7 +23583,7 @@
   23 mentally
    2 mentha
    1 menthol
- 450 mention
+ 452 mention
    1 mentionlah
   10 mentor
  238 menu
@@ -23660,19 +23664,19 @@
   83 mesh
    1 mesic
    1 mesmeric
-   3 mesmerise
-   3 mesmerising
+   4 mesmerise
+   2 mesmerising
    5 mesmerize
    3 meso
    1 meson
    1 mesopotamia
    1 mesozoic
    1 mesplde
- 337 mess
+ 338 mess
  345 message
    7 messaging
    1 messe
-   4 messed
+   3 messed
   39 messenger
    1 messenia
    1 messerknecht
@@ -23986,7 +23990,7 @@
    1 miminpedia
    1 mimobot
    7 mimosa
- 326 min
+ 325 min
   53 mina
    1 minardi
    2 minaudiere
@@ -24067,7 +24071,7 @@
    1 minotaur
    2 minoxidil
    1 minpin
-  11 mins
+  12 mins
    1 minsk
    1 minster
    1 minstrel
@@ -24147,7 +24151,7 @@
    1 misplaced
    1 misrati
    5 misread
-5765 miss
+5770 miss
    3 missa
    1 missal
    1 misscheduled
@@ -24178,7 +24182,7 @@
    1 missyourface
    1 missyousomuchh
   21 mist
- 165 mistake
+ 166 mistake
    6 mistaken
    1 mistakenly
   15 mister
@@ -24285,7 +24289,7 @@
    1 moda
    3 modal
   82 mode
- 296 model
+ 298 model
   17 modelling
   24 modem
    4 modena
@@ -24465,7 +24469,7 @@
    7 monterey
    1 montessori
    5 montgomery
- 753 month
+ 754 month
    1 monthaversary
   11 monthly
    5 months
@@ -24642,8 +24646,8 @@
   47 motion
    1 motional
    2 motionless
-  32 motivate
-   9 motivated
+  31 motivate
+  10 motivated
    1 motivates
   67 motivation
    5 motivational
@@ -24752,7 +24756,7 @@
   10 mri
    4 mrna
    1 mrrw
-  20 mrs
+  22 mrs
    1 mrsfranklin
    1 mrslalaa
    1 mrsnobius
@@ -24800,7 +24804,7 @@
    1 muawhahahwhaha
    1 muay
    3 mubarak
-3707 much
+3716 much
   10 mucha
    1 muchamadnabil
    3 muck
@@ -24976,7 +24980,8 @@
    3 musica
   76 musical
    4 musically
-  18 musician
+  17 musician
+   1 musicians
    4 musicmedia
    1 musicthis
    2 musik
@@ -24995,7 +25000,7 @@
    1 mussini
    2 mussolini
    1 mussy
- 871 must
+ 875 must
    1 musta
   13 mustache
    3 mustafa
@@ -25469,7 +25474,7 @@
    1 nedrorem
    5 neds
   21 nee
-4784 need
+4785 need
    1 needed
    1 neededmylaptop
    1 needham
@@ -25609,7 +25614,7 @@
    2 nev
   28 neva
   11 nevada
-2857 never
+2859 never
    1 neverget
    3 neverland
   37 nevermind
@@ -25619,7 +25624,7 @@
    3 nevertheless
    6 neville
    1 nevilles
-3523 new
+3525 new
    2 newall
    7 newark
    2 newberry
@@ -25677,7 +25682,7 @@
    1 newzealand
    7 nex
    1 nexelite
-1944 next
+1945 next
    1 nextline
    1 nexttime
    9 nexus
@@ -25718,7 +25723,7 @@
   15 nhs
   19 nia
   11 niagara
- 418 niall
+ 419 niall
    1 niam
    9 niamh
    1 nib
@@ -25731,11 +25736,11 @@
    3 nicaragua
    1 nicca
    1 niccolo
-1857 nice
+1858 nice
    1 nicegirl
   36 nicely
    3 niceness
-   4 nicer
+   5 nicer
    1 nichanhee
    7 niche
    1 nichiren
@@ -26024,7 +26029,7 @@
    1 nonviolent
    1 nonwoven
    2 nonya
- 630 noo
+ 631 noo
   74 noodle
   20 nook
    1 nookcolor
@@ -26123,11 +26128,11 @@
    1 notfeeling
    2 noth
   68 nothin
-1039 nothing
+1040 nothing
    1 nothingmuch
    1 nothingness
- 650 notice
-  26 noticed
+ 652 notice
+  25 noticed
   14 noticing
   23 notification
    1 notifies
@@ -26165,7 +26170,7 @@
    2 novena
    1 novgorod
   12 novice
- 104 novo
+ 109 novo
    1 novoflex
    2 novotel
   21 nowadays
@@ -26470,7 +26475,7 @@
  162 officially
    2 officiate
    1 officinale
-  57 offline
+  58 offline
    7 offs
    3 offset
    6 offshore
@@ -26490,7 +26495,7 @@
    3 ohemgee
    1 ohghad
    1 ohgoshh
- 554 ohh
+ 555 ohh
    1 ohhemmgee
    8 ohhh
    1 ohhhh
@@ -26523,7 +26528,7 @@
    1 oishi
    1 okaeere
    3 okapi
-1660 okay
+1664 okay
    1 okaybye
    1 okaykay
    1 okayokay
@@ -26551,11 +26556,11 @@
    5 ola
    1 olaf
    1 olavide
-1363 old
+1361 old
   11 olde
    2 olden
-   3 older
-   2 oldest
+   5 older
+   3 oldest
    3 oldham
    9 oldie
    1 oldish
@@ -26623,7 +26628,7 @@
    1 omfgosh
    1 omfmonchele
    1 omformf
-1741 omg
+1743 omg
    1 omgasdfghjkl
    1 omgawssh
    1 omggirlz
@@ -26663,7 +26668,7 @@
    3 oncology
    3 oncoming
    1 ondaatje
-7666 one
+7669 one
    1 onedirecrion
    1 onedirection
    1 onefullseasonwithjoseph
@@ -26820,8 +26825,8 @@
   34 oral
    1 oralism
    8 orang
- 190 orange
-   1 oranges
+ 189 orange
+   2 oranges
    3 orb
    2 orbis
    1 orbison
@@ -27885,15 +27890,15 @@
    6 pedometer
   15 pedro
    1 pedsnotes
-  73 pee
+  74 pee
    6 peed
    1 peedie
-   4 peeing
+   3 peeing
   20 peek
   28 peel
    3 peeler
    1 peen
-  82 peep
+  83 peep
    2 peeper
    1 peeping
    8 peer
@@ -28261,8 +28266,8 @@
    5 phileas
    1 philharmonic
   52 philip
- 148 philippine
-  17 philippines
+ 147 philippine
+  18 philippines
    1 philipps
    1 phill
   24 phillip
@@ -28531,8 +28536,8 @@
    1 piscatella
   12 pisces
    1 pish
- 140 piss
- 120 pissed
+ 141 piss
+ 119 pissed
    5 pissing
    2 pissy
   10 pistachio
@@ -28633,7 +28638,7 @@
    7 platypus
    2 plausible
    1 plautus
-1713 play
+1716 play
    4 playa
    1 playability
    8 playable
@@ -28649,7 +28654,7 @@
   11 playground
    1 playgroup
    5 playhouse
- 172 playing
+ 169 playing
   38 playlist
    1 playmaker
    6 playmate
@@ -28672,8 +28677,8 @@
   17 pleasant
    3 pleasantly
    1 pleasantry
-5500 please
-  29 pleased
+5540 please
+  28 pleased
    1 pleasee
    1 pleaseegreyy
    1 pleasefollow
@@ -29119,8 +29124,8 @@
   15 pout
    9 poverty
   24 pow
-  57 powder
-   6 powdered
+  58 powder
+   5 powdered
    3 powderpuff
   12 powell
  583 power
@@ -29359,7 +29364,7 @@
   17 prettiest
    1 prettiiboii
    1 prettiness
-1403 pretty
+1405 pretty
    1 prettyass
   12 pretzel
    5 prevail
@@ -29413,7 +29418,7 @@
  103 prince
    1 princedremanx
    1 princegetty
- 202 princess
+ 203 princess
    2 princesses
   26 princeton
   20 principal
@@ -29454,7 +29459,7 @@
   53 prize
    4 prn
    1 prnewswire
- 416 pro
+ 417 pro
    3 proactive
   89 prob
    1 proba
@@ -29548,16 +29553,16 @@
    3 prolog
    1 prologue
    2 prolong
- 462 prom
+ 463 prom
    2 promega
    1 promenade
    2 prometheus
    2 prominence
    4 prominent
    2 promiscuous
- 309 promise
+ 310 promise
    3 promisee
-   5 promising
+   4 promising
    1 promizzle
   38 promo
    1 promocalypse
@@ -29811,8 +29816,8 @@
   15 puma
    1 pumas
    3 pumice
- 143 pump
-   4 pumping
+ 144 pump
+   3 pumping
   21 pumpkin
   25 pun
   99 punch
@@ -29899,7 +29904,7 @@
    2 puso
  145 pussy
    2 pussycat
-1184 put
+1185 put
    1 putco
    1 putlocker
    2 putney
@@ -29909,7 +29914,7 @@
   16 putt
    1 puttanesca
    6 putter
-   4 putting
+   3 putting
    2 putty
    1 putumayo
    1 puuhhleeaasee
@@ -30288,7 +30293,7 @@
   25 rally
   16 ralph
    1 ralphiee
- 360 ram
+ 363 ram
    1 ramadan
    1 ramadhan
    1 ramage
@@ -30523,7 +30528,7 @@
   10 realization
  308 realize
    1 realizes
-4934 really
+4937 really
   11 realm
    3 reals
    1 realshare
@@ -30942,10 +30947,10 @@
    6 remembering
    9 remembers
    5 remembrance
- 231 remind
+ 232 remind
    1 reminded
   32 reminder
-  44 reminds
+  43 reminds
    2 remington
   20 reminisce
    1 reminiscence
@@ -31033,7 +31038,7 @@
    4 rephrase
  120 replace
    1 replaceable
- 333 replacement
+ 336 replacement
    3 replaces
    1 replant
   22 replay
@@ -31043,8 +31048,8 @@
   16 replica
    3 replicate
    1 replication
- 639 reply
-  15 replying
+ 641 reply
+  13 replying
    2 repo
    1 reponerse
  190 report
@@ -31157,7 +31162,7 @@
   14 responsibility
   22 responsible
    5 responsive
- 502 rest
+ 503 rest
   10 restart
   69 restaurant
    2 restful
@@ -31429,7 +31434,7 @@
    1 rigger
    1 rigging
    3 riggins
-3055 right
+3058 right
    1 rightchea
    9 righteous
    2 rightfully
@@ -31478,7 +31483,7 @@
   26 rio
    2 rioja
   16 riot
- 299 rip
+ 300 rip
    1 ripcord
    4 ripe
    3 ripen
@@ -31495,7 +31500,7 @@
    1 ririnsekarini
    2 ris
    1 risc
- 318 rise
+ 317 rise
    6 riser
    2 rishon
   65 risk
@@ -31600,7 +31605,7 @@
   14 roc
    2 rocastle
    2 rocca
-   7 rocco
+   8 rocco
    1 roch
    1 rochanohelia
    2 rochdale
@@ -31756,7 +31761,7 @@
    2 rosberg
    4 roscoe
    1 roscommon
-  55 rose
+  56 rose
    1 roseberry
    6 rosehip
    6 rosemary
@@ -31965,7 +31970,7 @@
    1 rumpus
    1 rumsfeld
    1 rumzi
- 998 run
+ 999 run
    1 runabout
    2 runaround
   13 runaway
@@ -31977,7 +31982,7 @@
    2 rung
    1 runminooka
   44 runner
-  29 running
+  28 running
    6 runny
    1 runoff
    4 runswick
@@ -32082,7 +32087,7 @@
   25 sacrifice
    1 sacrificed
    1 sacrum
-2297 sad
+2326 sad
    1 sadat
    2 saddam
    4 sadden
@@ -32413,7 +32418,7 @@
    1 satanism
    2 satay
    3 satchel
-  35 satellite
+  37 satellite
    1 sathyaraj
    1 satie
   59 satin
@@ -32432,9 +32437,9 @@
    2 saturate
    1 saturated
    1 saturating
- 591 saturday
+ 590 saturday
    1 saturdaynights
-   1 saturdays
+   2 saturdays
   10 saturn
    3 satya
   77 sauce
@@ -32484,14 +32489,14 @@
    1 saxonshore
    5 saxophone
    1 saxophonist
-5141 say
+5144 say
    1 sayaangkuh
    1 sayangku
    2 saye
    1 sayeed
    3 sayer
    1 sayhivi
-  55 saying
+  53 saying
    1 sayyid
    1 sbbi
    1 sbc
@@ -32532,7 +32537,7 @@
   11 scapa
    1 scape
    1 scapegoat
- 208 scar
+ 211 scar
    1 scarab
    1 scarabae
    4 scarborough
@@ -32542,13 +32547,13 @@
    1 scarcity
   58 scare
    3 scarecrow
- 231 scared
+ 229 scared
    1 scaredd
   26 scarf
    5 scarface
    2 scarier
    1 scarifier
-   6 scaring
+   5 scaring
   15 scarlet
    7 scarlett
    1 scarman
@@ -32614,7 +32619,7 @@
   14 scholar
   20 scholarship
    8 scholastic
-2697 school
+2701 school
    4 schoolboy
    1 schooled
    1 schoolgirl
@@ -32876,7 +32881,7 @@
    1 seawitch
   10 seb
    1 sebaikx
-   1 sebangkumu
+   2 sebangkumu
   10 sebastian
    1 sebastiano
    1 sebeok
@@ -32925,13 +32930,13 @@
    8 seduction
    4 seductive
    1 sedum
-6759 see
+6764 see
   57 seed
    1 seedberry
    1 seediness
    5 seedling
    1 seedy
-  49 seeing
+  48 seeing
    1 seeingtosh
   80 seek
    9 seeker
@@ -33283,9 +33288,8 @@
    1 shaddupa
   64 shade
    1 shadefallen
-  72 shadow
+  73 shadow
    3 shadowbox
-   1 shadowing
    4 shadowlands
    1 shadowrun
    1 shadowspell
@@ -33327,7 +33331,7 @@
    1 shambella
    4 shambhala
    3 shamble
- 178 shame
+ 179 shame
    4 shameful
    5 shameless
    1 shamingly
@@ -33454,7 +33458,7 @@
    3 sheepskin
   21 sheer
    1 sheesh
- 170 sheet
+ 171 sheet
    2 sheeting
    1 sheff
   26 sheffield
@@ -33582,7 +33586,7 @@
  479 shirt
    5 shirtfrenzy
   15 shirtless
-1542 shit
+1543 shit
    4 shitberry
   33 shite
    1 shithawks
@@ -33604,10 +33608,10 @@
    1 shoaib
    3 shoal
    1 shobito
-  81 shock
+  82 shock
    9 shocked
    3 shocker
-  16 shocking
+  15 shocking
    3 shockingly
    2 shockwave
    1 shoddy
@@ -33628,8 +33632,8 @@
    1 shootchaa
    8 shooter
   17 shooting
- 373 shootout
- 274 shop
+ 378 shootout
+ 277 shop
    5 shopaholic
    1 shopforba
   14 shopforbattery
@@ -33637,7 +33641,7 @@
    1 shoplifting
   10 shopper
    1 shoppiinngg
- 186 shopping
+ 183 shopping
   53 shore
    1 shoreham
    1 shoreleave
@@ -33676,7 +33680,7 @@
    1 shouldhave
    1 shouldv
    1 shouse
- 404 shout
+ 405 shout
    1 shouting
    1 shoutout
    1 shoutoutito
@@ -33743,7 +33747,7 @@
    7 shunt
    2 shur
   16 shush
- 344 shut
+ 345 shut
    6 shutdown
    8 shuts
    4 shutt
@@ -33783,7 +33787,7 @@
    2 sicilian
    1 sicilianinheels
    4 sicily
- 882 sick
+ 883 sick
    2 sicken
    1 sickening
    3 sickens
@@ -33832,7 +33836,7 @@
    2 sighting
    6 sightseeing
   11 sigma
- 401 sign
+ 402 sign
    1 signage
   58 signal
   48 signature
@@ -33844,7 +33848,7 @@
   14 significant
    3 significantly
    1 signify
-  34 signing
+  33 signing
    1 signpost
    1 sigua
    3 sigue
@@ -34024,7 +34028,7 @@
    6 sirius
    1 sirloin
    1 sirnak
-   6 sis
+   7 sis
    1 sisal
    2 sissons
    1 sissorhands
@@ -34038,7 +34042,7 @@
    2 sisterly
    1 sisterssxx
    1 sistine
- 721 sit
+ 723 sit
    1 sitcom
  194 site
    2 sith
@@ -34047,7 +34051,7 @@
    2 sitka
    1 sitosterol
    7 sitter
-  11 sitting
+   9 sitting
    3 situate
   97 situation
    1 sitwasyon
@@ -34161,7 +34165,7 @@
    1 skullcandys
    1 skulls
    4 skunk
- 175 sky
+ 176 sky
    1 skybluepink
    1 skybolt
    1 skycaddie
@@ -34234,11 +34238,11 @@
    1 sledge
    1 slee
   38 sleek
-2356 sleep
+2358 sleep
    1 sleepdoodling
   47 sleeper
    3 sleepiness
-  50 sleeping
+  48 sleeping
    7 sleepless
    1 sleepovaa
    1 sleepsack
@@ -34359,15 +34363,15 @@
    1 slydawg
    2 slyly
    1 slynn
-  11 sma
+  12 sma
   38 smack
    1 smackable
    1 smacked
    4 smacker
    1 smacking
- 577 small
+ 572 small
    1 smalldeadanimals
-   2 smaller
+   7 smaller
    5 smalley
    1 smallpox
    2 smalltalk
@@ -34612,7 +34616,7 @@
   10 sod
   38 soda
    1 sodding
-  86 sodium
+  88 sodium
    1 soe
   41 sofa
   10 sofia
@@ -34664,7 +34668,7 @@
    7 solitary
    3 solitude
    2 solly
- 165 solo
+ 166 solo
    1 soloman
    7 solomon
    1 solomos
@@ -34701,7 +34705,7 @@
    3 somersault
    7 somerset
    1 somerville
-1724 something
+1725 something
   21 somethings
  109 sometime
  430 sometimes
@@ -34738,7 +34742,7 @@
  161 sony
    2 sonya
 1601 soo
-1536 soon
+1538 soon
   48 sooner
    1 soonerfan
    1 sooppeerr
@@ -34783,14 +34787,14 @@
    2 sorrento
    1 sorrier
    5 sorrow
-2303 sorry
+2305 sorry
    1 sorrylah
    1 sorrysorry
    1 sorrytosayno
    1 sorsogon
- 215 sort
+ 216 sort
   20 sorta
-   4 sorted
+   3 sorted
    1 sorter
    2 sortie
    1 sos
@@ -34811,7 +34815,7 @@
    8 sou
    4 souffle
    1 soufriere
- 169 soul
+ 170 soul
    1 soulboy
    5 soulchild
    1 souled
@@ -34819,9 +34823,8 @@
    2 souljah
    9 soulmate
    4 soulmates
-   1 souls
    1 soulsilver
- 968 sound
+ 969 sound
    1 soundaria
    1 soundboard
    9 soundcheck
@@ -34999,12 +35002,12 @@
    1 speelman
    5 speer
    1 speetphire
- 110 spell
+ 111 spell
    1 spellbinding
    3 spellcraft
    1 speller
    1 spelletje
-  23 spelling
+  22 spelling
    7 spelt
    6 spence
   16 spencer
@@ -35369,7 +35372,7 @@
    2 staphysagria
   11 staple
    8 stapler
- 494 star
+ 495 star
   76 starbuck
    5 starburst
    1 starcalls
@@ -35388,7 +35391,7 @@
    1 starlit
    2 starpulse
    2 starr
-   2 starring
+   1 starring
    2 starry
   26 starship
 1679 start
@@ -35431,7 +35434,7 @@
   23 stats
   10 statue
    1 statuesque
-   1 statuettes
+   1 statuette
    1 stature
   97 status
    2 statuses
@@ -35441,10 +35444,10 @@
    4 stave
    1 staveley
    1 stax
-1116 stay
+1115 stay
    1 staycations
    1 staycool
-  36 staying
+  37 staying
    8 stb
    2 stc
   19 std
@@ -35563,7 +35566,7 @@
    1 sthis
    8 sti
    1 stich
- 348 stick
+ 349 stick
  102 sticker
   28 stickers
    2 stickiness
@@ -35580,7 +35583,7 @@
    1 stil
    6 stiletto
    1 stili
-3153 still
+3154 still
    1 stillbirth
    2 stillman
    2 stillness
@@ -35828,7 +35831,7 @@
    2 stubbs
    4 stubby
    1 stubhub
- 142 stuck
+ 141 stuck
   60 stud
    2 studd
    2 studded
@@ -35972,7 +35975,7 @@
    2 succumb
    1 succumbs
    1 suchlike
- 868 suck
+ 871 suck
    1 suckafree
   20 sucker
    1 suckle
@@ -36004,7 +36007,7 @@
    1 suffrage
    2 sufis
    1 sugababes
- 145 sugar
+ 146 sugar
    1 sugarbaby
    1 sugarhut
    1 sugarpie
@@ -36233,7 +36236,7 @@
    1 suraiyah
    1 surat
    1 surbiton
-1480 sure
+1486 sure
    1 surebonder
    1 suregrip
   73 surely
@@ -36259,8 +36262,8 @@
    1 surpasses
    2 surplice
    1 surplus
- 151 surprise
-  49 surprised
+ 152 surprise
+  48 surprised
   17 surprising
   19 surprisingly
    5 surreal
@@ -36392,7 +36395,7 @@
    1 sweeper
    5 sweeping
    3 sweepstake
-1653 sweet
+1654 sweet
    1 sweetblood
    1 sweetcake
    1 sweetchecks
@@ -36407,12 +36410,12 @@
    1 sweetestthang
  110 sweetheart
    1 sweethearts
- 132 sweetie
+ 133 sweetie
  317 sweeting
    2 sweetly
   10 sweetness
    1 sweetpea
-  24 sweets
+  25 sweets
    1 sweetsoles
    1 sweetthangg
    1 sweetwater
@@ -36649,7 +36652,7 @@
    1 takako
    1 takapuna
    1 takashi
-3466 take
+3468 take
   17 takeaway
    4 takecare
    2 takenote
@@ -36670,14 +36673,14 @@
    1 talal
    7 talbot
    1 talcum
-  89 tale
+  88 tale
  134 talent
   90 talented
    1 talentless
-  59 tales
+  60 tales
    1 talesauthor
    2 talisman
-2415 talk
+2417 talk
    1 talkative
    1 talkativebeauty
    1 talked
@@ -36939,7 +36942,7 @@
    1 tearful
    1 teargas
    5 tearing
-  55 tease
+  56 tease
   26 teaser
    1 teasingly
    1 teaspoon
@@ -37057,10 +37060,10 @@
   34 television
    1 televisionrating
    2 telford
-2571 tell
+2572 tell
    1 tellenor
    7 teller
-  15 telling
+  16 telling
    1 telltale
    3 tellurium
   33 telly
@@ -37244,7 +37247,7 @@
    2 teutonic
    7 tew
   14 tex
-  10 texan
+  11 texan
    3 texans
   95 texas
 1521 text
@@ -37252,7 +37255,7 @@
    2 textbridge
    1 textedback
   12 textile
-  25 texts
+  26 texts
    1 textsfromlastnight
    2 textual
   16 texture
@@ -37297,24 +37300,24 @@
    1 thang
    1 thanh
    2 thani
-2421 thank
+2440 thank
    1 thanked
   70 thankful
    6 thankfully
    3 thanking
    1 thankiuus
    1 thankless
-4272 thanks
+4298 thanks
   10 thanksgiving
    1 thanksyaa
- 303 thankyou
+ 307 thankyou
    1 thankyouthankyou
    1 thankyouthankyouthankyou
    1 thanneyanu
    1 thanngg
    1 thanniversary
    1 thapa
-1093 that
+1095 that
    1 thatha
    3 thathiphopblog
    1 thatpengdorlah
@@ -37454,22 +37457,22 @@
    6 thieve
   43 thigh
   90 thin
-2720 thing
+2721 thing
    1 thingamajig
    2 thingie
    1 thingies
    1 things
    1 thingwall
   37 thingy
-5722 think
+5729 think
    1 thinkcentr
-  16 thinkcentre
+  18 thinkcentre
   11 thinker
    1 thinkinbouthyhu
- 219 thinking
+ 220 thinking
    1 thinkinginmyhead
    2 thinkingten
-  74 thinkpad
+  78 thinkpad
    2 thinkserver
    1 thinkthis
    2 thinkvision
@@ -37523,7 +37526,7 @@
    2 thoth
   87 thou
 2123 though
- 529 thought
+ 528 thought
   12 thoughtful
    1 thoughtfully
    2 thoughtfulness
@@ -37690,7 +37693,7 @@
    1 timberview
    1 timberwolves
    2 timbs
-5715 time
+5719 time
    1 timeblogs
    2 timecop
    2 timeflow
@@ -37846,9 +37849,9 @@
    4 tock
   12 tod
    1 todamaaxx
-4748 today
+4754 today
    1 todaymore
-  43 todays
+  42 todays
    1 todaytaking
   18 todd
  112 toddler
@@ -37920,7 +37923,7 @@
    1 tomography
    1 tomolo
    1 tomoraa
-3191 tomorrow
+3192 tomorrow
    2 tomorrowman
   12 tomorrows
    1 tomozziess
@@ -37950,7 +37953,7 @@
   10 tonic
    1 tonifiant
    1 tonigghhtt
-2098 tonight
+2101 tonight
    1 tonightaahh
    1 tonite
    1 tonitee
@@ -38061,7 +38064,7 @@
   25 tory
   12 tosh
    1 toshack
-  71 toshiba
+  75 toshiba
    2 toshiki
   22 toss
    1 tossing
@@ -38500,7 +38503,7 @@
    1 truckload
    1 truckloads
    1 trudy
-1013 true
+1015 true
    1 trueblood
    1 truecaller
    1 trueeyez
@@ -38525,7 +38528,7 @@
    1 truro
    2 truroots
    6 truss
- 300 trust
+ 301 trust
    1 trustee
    1 trustissues
    1 trustthings
@@ -38537,7 +38540,7 @@
    3 trv
   89 trw
    1 trwyn
-2338 try
+2340 try
    1 tryin
    7 trying
    1 tryon
@@ -38685,7 +38688,7 @@
   33 turkish
    1 turks
    3 turmeric
- 736 turn
+ 737 turn
    1 turncoat
   24 turner
    1 turnham
@@ -38755,13 +38758,13 @@
    2 tweeds
   10 tween
    1 tweeppss
-2236 tweet
+2239 tweet
    1 tweeta
    2 tweetbot
    1 tweetbox
    2 tweetcaster
    3 tweetdeck
- 242 tweeter
+ 243 tweeter
    1 tweetheads
    1 tweetheadz
    1 tweetheartsand
@@ -38776,15 +38779,17 @@
    1 tweetwatchers
    2 tweetwatching
    1 tweetybirds
-  24 tweezer
+  23 tweezer
    3 tweezerman
    1 tweezermans
+   1 tweezers
    4 twelfth
   31 twelve
    2 twen
    2 twent
+   1 twenties
   13 twentieth
-  80 twenty
+  79 twenty
    1 twentysomethings
    1 twentythreeleven
    1 twerk
@@ -38804,7 +38809,7 @@
    1 twilightish
   10 twill
    1 twimemachine
- 204 twin
+ 205 twin
    1 twincakes
    2 twine
   16 twinkle
@@ -38827,7 +38832,7 @@
    1 twitcam
    2 twitcamm
    1 twitcamming
- 314 twitch
+ 317 twitch
    2 twitching
    1 twitchy
    2 twitcon
@@ -39163,10 +39168,10 @@
    1 underscore
    3 undersea
    1 underside
- 461 understand
+ 462 understand
    7 understandable
    1 understandably
-  27 understanding
+  26 understanding
    2 understands
    1 understate
   12 understatement
@@ -39473,7 +39478,7 @@
    3 updating
    1 upended
    2 upfront
- 267 upgrade
+ 269 upgrade
    1 upgraded
    1 uph
    5 uphill
@@ -39503,9 +39508,9 @@
   66 ups
    1 upsatser
    1 upscale
- 259 upset
+ 260 upset
    1 upsetfrom
-  20 upsetting
+  19 upsetting
   38 upside
    1 upss
   37 upstairs
@@ -39525,7 +39530,7 @@
    1 upwards
    1 ura
    1 uranus
-  41 urban
+  42 urban
    1 urbanity
    1 urd
    1 urdaneta
@@ -39990,7 +39995,7 @@
    7 vida
    1 videcolor
    1 videla
-1453 video
+1454 video
    2 videocart
    1 videoclip
    1 videogames
@@ -40074,8 +40079,9 @@
    2 violette
   36 violin
    1 violinist
-  63 vip
+  62 vip
    7 viper
+   1 vips
    3 vir
    2 virago
   12 viral
@@ -40192,7 +40198,7 @@
    1 vogelsang
    9 vogue
    1 voguestewart
- 615 voice
+ 617 voice
    1 voiced
    1 voiceintense
    3 voiceless
@@ -40350,11 +40356,11 @@
    3 waistband
    1 waistedown
    1 waistline
-2802 wait
+2806 wait
    5 waite
    2 waited
    7 waiter
-  72 waiting
+  70 waiting
    1 waitingfor
    1 waitlisted
   11 waitress
@@ -40366,7 +40372,7 @@
    1 wakakakakakakakaakkakakka
    1 wakakakakakakakart
    1 wakakakrt
- 888 wake
+ 887 wake
    1 wakeman
    5 waken
    1 wakil
@@ -40448,9 +40454,9 @@
    1 wankstains
    1 wanless
   10 wann
-2605 wanna
+2607 wanna
   16 wannabe
-6943 want
+6950 want
    3 wanta
    1 wantage
   22 wanted
@@ -40526,7 +40532,7 @@
    1 wasim
   72 wasp
    3 wasps
-  11 wass
+  12 wass
    1 wassabians
    1 wassgucci
    5 wassupp
@@ -40542,12 +40548,12 @@
    1 wastwater
  188 wat
    1 watanabe
-3020 watch
+3023 watch
    1 watchdog
   10 watcher
    3 watchguard
    1 watchin
-  23 watching
+  21 watching
    2 watchman
    1 watchtower
    1 watchword
@@ -40604,7 +40610,7 @@
    1 waxandwanenostalgic
    1 waxman
    2 waxwork
-2581 way
+2582 way
    1 wayans
    1 waybill
    2 wayfarer
@@ -40633,14 +40639,14 @@
   11 wealthy
   26 weapon
    1 weaponry
- 707 wear
+ 708 wear
    1 wearable
    1 wearedklovers
    2 wearer
    1 weariness
    4 wearing
    3 weasel
- 612 weather
+ 614 weather
    2 weathered
    3 weatherman
    3 weatherproof
@@ -40672,8 +40678,8 @@
  174 wedding
    1 weddinggrisha
   30 wedge
- 207 wednesday
-   7 wednesdays
+ 206 wednesday
+   8 wednesdays
  213 wee
  158 weed
    1 weedmane
@@ -40684,7 +40690,7 @@
 2140 week
   10 weekday
    3 weekdays
-1387 weekend
+1391 weekend
    1 weekender
   26 weekly
    1 weeknd
@@ -40736,7 +40742,7 @@
   17 wel
    2 welbeck
    4 welch
- 610 welcome
+ 612 welcome
    1 welcoming
   10 weld
    6 welder
@@ -40744,7 +40750,7 @@
    1 weldon
    2 welfare
   29 welham
-4759 well
+4798 well
    1 wella
    1 wellbeing
    5 wellcome
@@ -40968,7 +40974,7 @@
    7 whizz
    2 whizzy
    1 whl
-  47 who
+  48 who
   64 whoa
    2 whodunit
    1 whoehoe
@@ -40995,7 +41001,7 @@
   84 whore
    1 whorean
   48 whose
-  52 whr
+  54 whr
    2 whs
    3 wht
    1 whtp
@@ -41216,7 +41222,7 @@
    4 wisely
    1 wiseman
    1 wiser
-3309 wish
+3313 wish
   11 wishful
    8 wishing
    1 wishy
@@ -41293,7 +41299,7 @@
    3 woh
    1 woil
    1 wok
-  63 woke
+  64 woke
    6 woken
    1 woking
    1 woleomari
@@ -41402,7 +41408,7 @@
    5 wordstar
    1 wore
    1 worg
-4075 work
+4076 work
    1 workable
    2 workaholic
    2 workbench
@@ -41417,7 +41423,7 @@
    2 workgroup
    1 workgroups
    1 workhorses
-  58 working
+  59 working
    6 workload
    2 workman
    1 workmanship
@@ -41444,21 +41450,21 @@
    1 worldwideelfs
    2 worleyparsons
   28 worm
-  18 worn
-  77 worried
+  17 worn
+  76 worried
    1 worrier
    1 worrisome
    1 worrlldd
- 583 worry
+ 586 worry
    6 worrying
    1 worryingly
-  38 worse
+  41 worse
    1 worsen
   23 worship
    3 worshipper
    1 worshipping
-  34 worst
- 292 worth
+  35 worst
+ 293 worth
    2 worthing
    3 worthless
    4 worthwhile
@@ -41468,7 +41474,7 @@
    1 wotherspoon
    1 wou
    4 woul
-4654 would
+4655 would
    1 wouldagree
    1 wouldnae
    1 wouldst
@@ -41523,16 +41529,16 @@
    1 wriststash
    2 wristwatch
    5 writ
- 828 write
+ 829 write
    1 writeline
  105 writer
    2 writers
    1 writersfrom
    2 writhe
-  94 writing
+  93 writing
    1 writingtrav
    5 wro
- 731 wrong
+ 732 wrong
    1 wrongeenn
    3 wrongly
    2 wru
@@ -41721,7 +41727,7 @@
    1 yatyy
   19 yaw
   33 yawn
- 716 yay
+ 717 yay
   23 yaya
    1 yayayaayayy
    1 yayayaya
@@ -41743,7 +41749,7 @@
    1 yeababy
    1 yeadon
    3 yeager
-3070 yeah
+3077 yeah
    2 yeahboii
    1 yeahboy
    1 yeahbrina
@@ -41805,10 +41811,10 @@
    1 yerself
 2304 yes
    1 yesasia
-   1 yeses
+   4 yeses
    1 yesshh
    1 yessmamm
- 594 yesterday
+ 595 yesterday
    4 yesterdays
    2 yesteryear
    1 yesyesyes
