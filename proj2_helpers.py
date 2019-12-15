@@ -23,5 +23,10 @@ def open_pickle_file(file_path):
         obj = pickle.load(f)
     return obj
 
+def create_submission(df_test, y_pred, submission_path):
+    test_id = df_test['Tweet_submission_id'].to_numpy()
+    print('verify length of test: ', len(test_id))
+    create_csv_submission(test_id, y_pred, submission_path)
+
     
     

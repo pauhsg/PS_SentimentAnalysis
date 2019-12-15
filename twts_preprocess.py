@@ -3,6 +3,7 @@ import nltk
 import numpy as np
 import re
 import spacy
+import string
 import wordninja
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
@@ -15,6 +16,7 @@ spell = SpellChecker()
 pattern = re.compile(r'\b(' + r'|'.join(stopwords.words('english')) + r')\b\s*') 
 regex = re.compile('[^A-Za-zÀ-ÿ]')
 sp = spacy.load('en_core_web_sm') 
+table = str.maketrans(dict.fromkeys("[],'"))
 
 smileys = {
     ':-)': 'happy',
@@ -311,6 +313,34 @@ def save_as_otpl(data, file_path):
         File.write(element)
         File.write('\n')
     File.close()
+
+def convert(lst): 
+    return str(lst).translate(table) 
+
+def corpus_for_glove(pos_otpl, neg_otpl, file_path):
+    print("> prepare corpus for GloVe with pp_pos and pp_neg")
+    # create list with one token per line for pp_pos
+    pp_pos_g = [twt.split() for twt in pos_otpl]
+    pp_pos_g = [token for twt in pp_pos_g for token in twt]
+    pos_corpus = convert(pp_pos_g)
+
+    # create list with one token per line for pp_neg
+    pp_neg_g = [twt.split() for twt in neg_otpl]
+    pp_neg_g = [token for twt in pp_neg_g for token in twt]
+    neg_corpus = convert(pp_neg_g)
+
+    # concatenate both lists
+    corpus_g = pos_corpus + ' ' + neg_corpus
+    print('corpus length:', len(corpus_g))
+
+    print("> saving corpus")
+    text_file = open(file_path, "w")
+    text_file.write(corpus_g)
+    text_file.close()
+
+
+
+
     
 
 
