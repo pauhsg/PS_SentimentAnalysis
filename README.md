@@ -33,7 +33,7 @@ Some files also need to be downloaded:
 To run the project, run the file `run.py`.
 
 ## Organisation of the repository
-```bash
+```
 | 
 |   README.md                                         > README of the project
 |   run.py                                            > file to run the model that yields the best result on AIcrowd
