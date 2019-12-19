@@ -1,6 +1,6 @@
 # Sentiment analysis of tweets 
 
-Project 2 sets the challenge to generate a model that could predict if a tweet message used to contain a positive :) or negative :( smiley, by considering only the remaining text.
+Project 2 of the Machine Learning course at EPFL sets the challenge to generate a model that could predict if a tweet message used to contain a positive :) or negative :( smiley, by considering only the remaining text.
 
 ## Dataset
 
@@ -9,9 +9,9 @@ Project 2 sets the challenge to generate a model that could predict if a tweet m
 
 ## Installations
 
-Several libraries are used for this project and need to be installed:
+Several libraries are used for this project and need to be installed. In your terminal do the following command:
 
-pip install ..........
+pip install -r requirements.txt
 
 Some files also need to be downloaded:
 
@@ -36,6 +36,7 @@ To run the project, run the file `run.py`.
 ```
 | 
 |   README.md                                         > README of the project
+|   requirements.txt                                  > contains required libraries to be able to run the project
 |   run.py                                            > file to run the model that yields the best result on AIcrowd
 |   
 +---Code
