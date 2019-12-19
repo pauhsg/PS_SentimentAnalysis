@@ -33,6 +33,7 @@ Some files also need to be downloaded:
 To run the project, run the file `run.py`.
 
 ## Organisation of the repository
+```bash
 | 
 |   `README.md`                                         > README of the project
 |   `run.py`                                            > file to run the model that yields the best result on AIcrowd
@@ -68,7 +69,7 @@ To run the project, run the file `run.py`.
 |       `vectors.txt`                                   > GloVe word embeddings with VECTOR_SIZE=100 in `demo.sh`
 |       `vocab.txt`                                     > GloVe vocabulary   
 |  
-||   +---glove200d     
+|   +---glove200d     
 |       `vectors.txt`                                   > GloVe word embeddings with VECTOR_SIZE=200 in `demo.sh`
 |       `vocab.txt`                                     > GloVe vocabulary     
 |
@@ -104,4 +105,4 @@ To run the project, run the file `run.py`.
 +---Submissions
 |   `CNN_ruby_200d.csv`                                 > best submission on AIcrowd using CNN on ruby preprocessed data with DIM_EMB=200   
 |                                          
-       
+```  
