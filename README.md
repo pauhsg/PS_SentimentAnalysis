@@ -35,74 +35,74 @@ To run the project, run the file `run.py`.
 ## Organisation of the repository
 ```bash
 | 
-|   `README.md`                                         > README of the project
-|   `run.py`                                            > file to run the model that yields the best result on AIcrowd
+|   README.md                                         > README of the project
+|   run.py                                            > file to run the model that yields the best result on AIcrowd
 |   
 +---Code
-|   `build_vocab.sh`                                    > allows to build a vocabulary from .txt files specified in it
-|   `cooc.py`                                           > produces the co-occurence matrix of files specified in it
-|   `cut_vocab.sh`                                      > cuts the obtained `vocab.txt`
-|   `get_embeddings_ML.py`                              > contains functions to get embeddings in the right format to perform ML
-|   `get_GloVe_emb_ML.py`                               > contains functions to get GloVe embeddings in the right format to perform ML
-|   `glove_solution.py`                                 > takes the sparse cooc matrix and transforms it in dense embeddings
-|   `load_data.py`                                      > contains functions to load preprocessed data
-|   `ML_CNN_keras.py`                                   > contains functions allowing to perform keras CNN              
-|   `ML_sklearn.py`                                     > contains functions allowing to perform ML with sklearn
-|   `pickle_vocab.py`                                   > transform `vocab.txt` into pickle file `vocab.pkl`` 
-|   `proj2_helpers.py`                                  > contains helpers functions to create submissions and open files
-|   `ruby_python.py`                                    > contains python-adapted version of Ruby 2.0 tweets preprocessing (pp='ruby')
-|   `twts_preprocess.py`                                > functions to perform our preprocessing (pp='normal')
+|   build_vocab.sh                                    > allows to build a vocabulary from .txt files specified in it
+|   cooc.py                                           > produces the co-occurence matrix of files specified in it
+|   cut_vocab.sh                                      > cuts the obtained vocab.txt
+|   get_embeddings_ML.py                              > contains functions to get embeddings in the right format to perform ML
+|   get_GloVe_emb_ML.py                               > contains functions to get GloVe embeddings in the right format to perform ML
+|   glove_solution.py                                 > takes the sparse cooc matrix and transforms it in dense embeddings
+|   load_data.py                                      > contains functions to load preprocessed data
+|   ML_CNN_keras.py                                   > contains functions allowing to perform keras CNN              
+|   ML_sklearn.py                                     > contains functions allowing to perform ML with sklearn
+|   pickle_vocab.py                                   > transform vocab.txt into pickle file vocab.pkl 
+|   proj2_helpers.py                                  > contains helpers functions to create submissions and open files
+|   ruby_python.py                                    > contains python-adapted version of Ruby 2.0 tweets preprocessing (pp='ruby')
+|   twts_preprocess.py                                > functions to perform our preprocessing (pp='normal')
 |
 +---Data
 |
 |   +---glove_pretrained     
-|       `glove.twitter.27B.25d.txt`                     > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 25
-|       `glove.twitter.27B.50d.txt`                     > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 50      
-|       `glove.twitter.27B.100d.txt`                    > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 100
-|       `glove.twitter.27B.200d.txt `                   > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 200
+|       glove.twitter.27B.25d.txt                     > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 25
+|       glove.twitter.27B.50d.txt                     > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 50      
+|       glove.twitter.27B.100d.txt                    > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 100
+|       glove.twitter.27B.200d.txt                    > downloaded GloVe pre-trained twitter word embeddings with dim_embeddings = 200
 |
 |   +---glove50d     
-|       `vectors.txt`                                   > GloVe word embeddings with VECTOR_SIZE=50 in `demo.sh`
-|       `vocab.txt`                                     > GloVe vocabulary   
+|       vectors.txt                                   > GloVe word embeddings with VECTOR_SIZE=50 in demo.sh
+|       vocab.txt                                     > GloVe vocabulary   
 |  
 |   +---glove100d     
-|       `vectors.txt`                                   > GloVe word embeddings with VECTOR_SIZE=100 in `demo.sh`
-|       `vocab.txt`                                     > GloVe vocabulary   
+|       vectors.txt                                   > GloVe word embeddings with VECTOR_SIZE=100 in demo.sh
+|       vocab.txt                                     > GloVe vocabulary   
 |  
 |   +---glove200d     
-|       `vectors.txt`                                   > GloVe word embeddings with VECTOR_SIZE=200 in `demo.sh`
-|       `vocab.txt`                                     > GloVe vocabulary     
+|       vectors.txt                                   > GloVe word embeddings with VECTOR_SIZE=200 in demo.sh
+|       vocab.txt                                     > GloVe vocabulary     
 |
 |   +---preprocessed   
-|       `corpus_glove.txt.txt`                          > corpus ready to be used for GloVe embeddings                                      
-|       `pp_neg_otpl_nd.txt`                            > 'normal' preprocessing applied on `train_neg.txt` saved as one tweet per line
-|       `pp_pos_otpl_nd.txt`                            > 'normal' preprocessing applied on `train_pos.txt` saved as one tweet per line
-|       `pp_test_otpl.txt`                              > 'normal' preprocessing applied on `test_data.txt` saved as one tweet per line
-|       `ruby_neg_otpl.txt`                             > 'ruby' preprocessing applied on `train_neg.txt` saved as one tweet per line
-|       `ruby_pos_otpl.txt`                             > 'ruby' preprocessing applied on `train_pos.txt` saved as one tweet per line
-|       `ruby_test_otpl.txt`                            > 'ruby' preprocessing applied on `test_data.txt` saved as one tweet per line
+|       corpus_glove.txt.txt                          > corpus ready to be used for GloVe embeddings                                      
+|       pp_neg_otpl_nd.txt                            > 'normal' preprocessing applied on train_neg.txt saved as one tweet per line
+|       pp_pos_otpl_nd.txt                            > 'normal' preprocessing applied on train_pos.txt saved as one tweet per line
+|       pp_test_otpl.txt                              > 'normal' preprocessing applied on test_data.txt saved as one tweet per line
+|       ruby_neg_otpl.txt                             > 'ruby' preprocessing applied on train_neg.txt saved as one tweet per line
+|       ruby_pos_otpl.txt                             > 'ruby' preprocessing applied on train_pos.txt saved as one tweet per line
+|       ruby_test_otpl.txt                            > 'ruby' preprocessing applied on test_data.txt saved as one tweet per line
 |                
 |   +---produced                                         
-|       `cooc.pkl`                                      > co-occurence matrix produced by running `cooc.py`
-|       `embeddings20d.npy`                             > embeddings produced by running `glove_solution.py` with dim_embeddings = 20
-|       `embeddings50d.npy`                             > embeddings produced by running `glove_solution.py` with dim_embeddings = 50
-|       `embeddings100d.npy`                            > embeddings produced by running `glove_solution.py` with dim_embeddings = 100
-|       `vocab_cut.txt`                                 > cut vocabulary produced by running `cut_vocab.sh`
-|       `vocab.pkl`                                     > pickle vocabulary produced by running `pickle_vocab.py`
-|       `vocab.txt`                                     > vocabulary produced by running `build_vocab.sh`
+|       cooc.pkl                                      > co-occurence matrix produced by running cooc.py
+|       embeddings20d.npy                             > embeddings produced by running glove_solution.py with dim_embeddings = 20
+|       embeddings50d.npy                             > embeddings produced by running glove_solution.py with dim_embeddings = 50
+|       embeddings100d.npy                            > embeddings produced by running glove_solution.py with dim_embeddings = 100
+|       vocab_cut.txt                                 > cut vocabulary produced by running cut_vocab.sh
+|       vocab.pkl                                     > pickle vocabulary produced by running pickle_vocab.py
+|       vocab.txt                                     > vocabulary produced by running build_vocab.sh
 |                
 |   +---twitter-datasets
-|       `sample-submission.csv`                         > example of sample submission file in the correct format
-|       `test_data.txt`                                 > test set containing 10'0000 unlabeled tweets
-|       `train_neg_full.txt`                            > training set containing 1'250'0000 negative tweets   
-|       `train_neg.txt`                                 > training set containing 100'0000 negative tweets
-|       `train_pos_full.txt`                            > training set containing 1'250'0000 positive tweets  
-|       `train_pos.txt`                                 > training set containing 100'0000 positive tweets
+|       sample-submission.csv                         > example of sample submission file in the correct format
+|       test_data.txt                                 > test set containing 10 000 unlabeled tweets
+|       train_neg_full.txt                            > training set containing 1 250 0000 negative tweets   
+|       train_neg.txt                                 > training set containing 100 0000 negative tweets
+|       train_pos_full.txt                            > training set containing 1 250 0000 positive tweets  
+|       train_pos.txt                                 > training set containing 100 000 positive tweets
 |                  
 +---Notebooks                                      
-|   `???.ipynb`
+|   lalala.ipynb
 |  
 +---Submissions
-|   `CNN_ruby_200d.csv`                                 > best submission on AIcrowd using CNN on ruby preprocessed data with DIM_EMB=200   
+|   CNN_ruby_200d.csv                                 > best submission on AIcrowd using CNN on ruby preprocessed data with DIM_EMB=200   
 |                                          
 ```  
