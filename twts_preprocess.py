@@ -11,6 +11,8 @@ from nltk.stem import WordNetLemmatizer
 from spellchecker import SpellChecker
 from typing import List
 
+from ruby_python import *
+
 lemmatizer = WordNetLemmatizer() 
 spell = SpellChecker()
 pattern = re.compile(r'\b(' + r'|'.join(stopwords.words('english')) + r')\b\s*') 
@@ -18,6 +20,7 @@ regex = re.compile('[^A-Za-zÀ-ÿ]')
 sp = spacy.load('en_core_web_sm') 
 table = str.maketrans(dict.fromkeys("[],'"))
 
+# dictionnary of different smileys and the word with which we replace it in the text
 smileys = {
     ':-)': 'happy',
     ':)': 'happy',
@@ -72,7 +75,12 @@ smileys = {
     ';)': 'happy',
     ';-)': 'happy',
 }
-    
+
+# dictionnary of contractions like "don't" that will be replaced by the the entire expression -> "do not"
+'''
+List adapted to our case from:
+https://stackoverflow.com/questions/19790188/expanding-english-language-contractions-in-python
+'''
 cList = {
     "ain't": "am not",
       "aren't": "are not",
@@ -198,7 +206,14 @@ c_re = re.compile('(%s)' % '|'.join(cList.keys()))
 
 
 def clean_tweet(twt):
-    
+    '''
+    takes a tweet (twt) and performs several cleaning steps:
+        - when there is a hashtag like #iloveML will transform it into "i love ML"
+        - replaces smileys with a word using the above dictionnary 'smileys'
+        - expand contractions like don't -> do not using the above dictionnary cList
+        - correct elongated words like haaaaappppyyyy -> happy
+    and returns the cleaned tweet
+    '''
     # get words in hashtags and removes smiley
     tweet = [' '.join(wordninja.split(word)) if word.startswith("#") \
              else (smileys.get(word) if word in smileys else word) for word in twt.split()]
@@ -217,7 +232,10 @@ def clean_tweet(twt):
 
 
 def get_wordnet_pos(treebank_tag):
-
+    '''
+    POS-tags furnished by the nltk POS-tag function are not in the same format that the ones used by the lemmatizer
+    --> this function converts them
+    '''
     if treebank_tag.startswith('J'):
         return wordnet.ADJ
     elif treebank_tag.startswith('V'):
@@ -230,23 +248,37 @@ def get_wordnet_pos(treebank_tag):
         return wordnet.NOUN
 
 def remove_consecutive_dups(s):
+    '''
+    removes consecutive duplication of letters in elongated words like 'haaaappppyyy'
+    '''
     return re.sub(r'(.)\1+', r'\1\1', s)
 
 def expandContractions(text, c_re=c_re):
-    
+    '''
+    expands contractions like don't -> do not
+    '''
     def replace(match):
         return cList[match.group(0)]
     
     return c_re.sub(replace, text)
 
 def parse_smileys(tweet: List[str]) -> List[str]:
+    '''
+    replaces smiley with words using the above list 'smileys'
+    '''
     return [smileys.get(word, word) for word in tweet]
 
 def remove_ids(test_data):
+    '''
+    removes ids in the test data 
+    '''
     return [twt.split(',', 1)[-1] for twt in test_data]
 
 def preprocessing(data):
-    
+    '''
+    this function allows to perform all our preprocessing steps described in the functions above
+    on given data 
+    '''
     print('> running preprocessing pipeline')
     
     # remove empty tweets
@@ -297,16 +329,23 @@ def preprocessing(data):
     return data 
 
 def remove_twt_duplicates(data):
+    '''
+    removes tweets that are duplicated in the data
+    '''
     return list(dict.fromkeys(data))
 
 def save_as_list(data, file_path):
-    #save processed data in the format ['tweet1', 'tweet2', ...] -> as a list
+    '''
+    save processed data in the format ['tweet1', 'tweet2', ...] -> as a list
+    '''
     print("> saving datas in the format ['tweet1', 'tweet2', ...]")
     with open(file_path, "w") as output:
         output.write(str(data))
         
 def save_as_otpl(data, file_path):
-    # save processed data in the format one tweet per line and no [] or '' -> one tweet per line = otpl
+    '''
+    save processed data in the format one tweet per line and no [] or '' -> one tweet per line = otpl
+    '''
     print("> saving datas in the format one tweet per line and no [] or '' ")
     File = open(file_path, 'w')
     for element in data:
@@ -315,9 +354,17 @@ def save_as_otpl(data, file_path):
     File.close()
 
 def convert(lst): 
+    '''
+    converts a list of tweets like ['tweet1', 'tweet2', ...] into one single string 'tweet1 tweet2 ...'
+    '''
     return str(lst).translate(table) 
 
 def corpus_for_glove(pos_otpl, neg_otpl, file_path):
+    '''
+    GloVe needs the data to be in a certain format: pos and neg together in a .txt file,
+    with all tweets converted into words seperated by whitespaces -> that is what this 
+    function does + it saves the obtained corpus in a file
+    '''
     print("> prepare corpus for GloVe with pp_pos and pp_neg")
     # create list with one token per line for pp_pos
     pp_pos_g = [twt.split() for twt in pos_otpl]
@@ -338,6 +385,73 @@ def corpus_for_glove(pos_otpl, neg_otpl, file_path):
     text_file.write(corpus_g)
     text_file.close()
 
+def run_train_preprocessing(pos, neg, pp):
+    '''
+    runs specified preprocessing ('pp' argument) on pos and neg train sets and saves them in .txt files with and without tweet duplicates
+    '''
+    if pp == 'normal':
+        print('> running normal preprocessing')
+        # run preprocessing on train_pos.txt and save
+        pp_pos = preprocessing(pos)
+        save_as_list(pp_pos, './Data/preprocessed/pp_pos_list.txt')
+        save_as_otpl(pp_pos, './Data/preprocessed/pp_pos_otpl.txt')
+
+        # remove duplicates and save
+        pp_pos_ = remove_twt_duplicates(pp_pos)
+        save_as_list(pp_pos_, './Data/preprocessed/pp_pos_list_nd.txt')
+        save_as_otpl(pp_pos_, './Data/preprocessed/pp_pos_otpl_nd.txt')
+
+        # run preprocessing on train_neg.txt and save 
+        pp_neg = preprocessing(neg)
+        save_as_list(pp_neg, './Data/preprocessed/pp_neg_list.txt')
+        save_as_otpl(pp_neg, './Data/preprocessed/pp_neg_otpl.txt')
+
+        # remove duplicates and save
+        pp_neg_ = remove_twt_duplicates(pp_neg)
+        save_as_list(pp_neg_, './Data/preprocessed/pp_neg_list_nd.txt')
+        save_as_otpl(pp_neg_, './Data/preprocessed/pp_neg_otpl_nd.txt')
+    
+    if pp == 'ruby':
+        print('> running Ruby 2.0 preprocessing')
+        # run preprocessing on train_pos.txt and save
+        pp_pos = [ruby_preprocessing(line) for line in pos]
+        save_as_list(pp_pos, './Data/preprocessed/ruby_pos_list.txt')
+        save_as_otpl(pp_pos, './Data/preprocessed/ruby_pos_otpl.txt')
+
+        # remove duplicates and save
+        pp_pos_ = remove_twt_duplicates(pp_pos)
+        save_as_list(pp_pos_, './Data/preprocessed/ruby_pos_list_nd.txt')
+        save_as_otpl(pp_pos_, './Data/preprocessed/ruby_pos_otpl_nd.txt')
+
+        # run preprocessing on train_neg.txt and save 
+        pp_neg = [ruby_preprocessing(line) for line in neg]
+        save_as_list(pp_neg, './Data/preprocessed/ruby_neg_list.txt')
+        save_as_otpl(pp_neg, './Data/preprocessed/ruby_neg_otpl.txt')
+
+        # remove duplicates and save
+        pp_neg_ = remove_twt_duplicates(pp_neg)
+        save_as_list(pp_neg_, './Data/preprocessed/ruby_neg_list_nd.txt')
+        save_as_otpl(pp_neg_, './Data/preprocessed/ruby_neg_otpl_nd.txt')
+
+    
+def run_test_preprocessing(test, pp):
+    '''
+    runs specified preprocessing ('pp' argument) on test set and saves it in .txt files 
+    '''
+    if pp == 'normal':
+        print('> running normal preprocessing')
+        test = remove_ids(test)
+        pp_test = preprocessing(test)
+        save_as_list(pp_test, './Data/preprocessed/pp_test_list.txt')
+        save_as_otpl(pp_test, './Data/preprocessed/pp_test_otpl.txt')
+
+    if pp == 'ruby':
+        print('> running Ruby 2.0 preprocessing')
+        test = remove_ids(test)
+        pp_test = [ruby_preprocessing(line) for line in test]
+        save_as_list(pp_test, './Data/preprocessed/ruby_test_list.txt')
+        save_as_otpl(pp_test, './Data/preprocessed/ruby_test_otpl.txt')
+    
 
 
 

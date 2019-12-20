@@ -5,6 +5,9 @@ import re
 regex = re.compile('[^A-Za-zÀ-ÿ]')
 
 def extract_mean_word_vectors(data, vocabulary, embeddings):
+    '''
+    extracts mean of word vectors for each tweet
+    '''
     print('> extracting mean of word vectors')
     
     # get vocab equivalence to tweet words
@@ -20,6 +23,14 @@ def extract_mean_word_vectors(data, vocabulary, embeddings):
     return idx_data, data_tweets_word_vector, data_tweets_mean_vector
 
 def process_train_ML(pos, neg, vocabulary, embeddings, dim_emb):
+    '''
+    given the positive and negative tweets data, the vocabulary, the word embeddings 
+    and the embedding dimension, extracts mean of word vectors per tweets, and outputs
+    a dataframe containing all pos and neg tweets, their labels (1 for pos/ -1 for neg) 
+    and their mean word vectors, then shuffles the rows and also outputs the X matrix 
+    containing mean word vectors and the vector y containinf the labels, ready to be 
+    used into ML algorithms
+    '''
     print('> process pos and neg datas to get X and y to perform ML')
     
     # seperate list of tweets in lines
@@ -53,7 +64,7 @@ def process_train_ML(pos, neg, vocabulary, embeddings, dim_emb):
     print('> X and y informations:')
     # get X matrix
     X = full_df['Mean_Word_Vector'].to_numpy()
-    X = [x if not np.isnan(x).any() else np.zeros((20,)) for x in X]
+    X = [x if not np.isnan(x).any() else np.zeros((dim_emb,)) for x in X]
     X = np.concatenate(X, axis=0).reshape((full_df.shape[0], dim_emb))
     print('X shape:', X.shape)
     
@@ -64,6 +75,12 @@ def process_train_ML(pos, neg, vocabulary, embeddings, dim_emb):
     return full_df, X, y
 
 def process_test_ML(test, vocabulary, embeddings, dim_emb):
+    '''
+    given test set, the vocabulary, the word embeddings and the embedding dimension, 
+    extracts mean of word vectors per tweets, and outputs a dataframe containing all tweets, 
+    their labels (1 for pos/ -1 for neg) and their mean word vectors, and also outputs 
+    the testx matrix containing mean word vectors and ready to be put in ML algorithms
+    '''
     print('> process test data to get X_test and perform ML')
     
     # extract mean word embeddings
@@ -79,7 +96,7 @@ def process_test_ML(test, vocabulary, embeddings, dim_emb):
     print('> X_test informations:')
     # get X_test matrix
     X_test = test_df['Mean_Word_Vector'].to_numpy()
-    X_test = [x if not np.isnan(x).any() else np.zeros((20,)) for x in X_test]
+    X_test = [x if not np.isnan(x).any() else np.zeros((dim_emb,)) for x in X_test]
     X_test = np.concatenate(X_test, axis=0).reshape((test_df.shape[0], dim_emb))
     print('X_test shape:', X_test.shape)
     

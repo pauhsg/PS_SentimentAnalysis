@@ -3,7 +3,9 @@ import numpy as np
 import pandas as pd
 
 def get_vectors(vectors_filepath):
-    # get a dictionary with {'word': vector}
+    '''
+    get a dictionary with {'word': vector}
+    '''
     vectors = {} 
     with open(vectors_filepath, "r") as f:
         for line in f:
@@ -13,6 +15,9 @@ def get_vectors(vectors_filepath):
     return vectors
 
 def compute_mean_we_glove(data, vectors, dim_emb):
+    '''
+    computes mean of word vectors for each tweet
+    '''
     print('> computing mean of word vectors')
     
     # word vectors of data 
@@ -24,6 +29,13 @@ def compute_mean_we_glove(data, vectors, dim_emb):
     return twt_vectors
 
 def get_train_emb(pos, neg, vectors, dim_emb):
+    '''
+    given the preprocessed positive and negative tweets data, the vectors and the embedding dimension, 
+    extracts mean of word vectors per tweets, and outputs a dataframe containing all pos 
+    and neg mean word vectors and their labels (1 for pos/ -1 for neg), then shuffles 
+    the rows and also outputs the X matrix containing mean word vectors and the vector y containing
+    the labels, ready to be used into ML algorithms
+    '''
     print('> process pos and neg datas to get X and y to perform ML')
 
     # compute mean word embeddings of each tweets for pos
@@ -66,12 +78,21 @@ def get_train_emb(pos, neg, vectors, dim_emb):
 
 
 def get_test_emb(test, vectors, dim_emb):
+    '''
+    given the preprocessed test set, the vectors and the embedding dimension, extracts mean of word 
+    vectors per tweets, and outputs a dataframe containing all tweets mean word vectors
+    and their labels (1 for pos/ -1 for neg) and also outputs the testx 
+    matrix containing mean word vectors ready to be put in ML algorithms
+    '''
     print('> process test data to get X_test and perform ML')
 
     # compute mean word embeddings of each tweets for test
     twt_vectors_test = compute_mean_we_glove(test, vectors, dim_emb)
 
+    # create test ids
     test_ids = np.linspace(1,10000,10000, dtype=int)
+
+    # create dataFrame 
     df_test = pd.DataFrame(list(zip(test_ids, twt_vectors_test)), columns=["Tweet_submission_id", "twt_vec"])
     del test_ids
 
@@ -82,6 +103,4 @@ def get_test_emb(test, vectors, dim_emb):
     print('Test shape', testx.shape)
 
     return df_test, testx
-
-
 

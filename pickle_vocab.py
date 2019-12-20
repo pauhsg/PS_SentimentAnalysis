@@ -4,11 +4,11 @@ import pickle
 
 def main():
     vocab = dict()
-    with open('./Results/vocab_cut.txt') as f:
+    with open('./Data/produced/vocab_cut.txt') as f:
         for idx, line in enumerate(f):
             vocab[line.strip()] = idx
 
-    with open('./Results/vocab.pkl', 'wb') as f:
+    with open('./Data/produced/vocab.pkl', 'wb') as f:
         pickle.dump(vocab, f, pickle.HIGHEST_PROTOCOL)
 
 

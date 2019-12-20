@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 def main():
     print("loading cooccurrence matrix")
-    with open('./Results/cooc.pkl', 'rb') as f:
+    with open('./Data/produced/cooc.pkl', 'rb') as f:
         cooc = pickle.load(f)
     print("{} nonzero entries".format(cooc.nnz))
 
@@ -36,7 +36,7 @@ def main():
             ys[jy, :] += scale * x
             
     print('shape of embeddings matrix:', np.shape(xs))
-    np.save('./Results/embeddings', xs)
+    np.save('./Data/produced/embeddings', xs)
 
 if __name__ == '__main__':
     main()

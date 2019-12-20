@@ -1,0 +1,14 @@
+Keras
+matplotlib
+numpy
+nltk
+pandas
+pickle5
+pyspellchecker
+python-csv
+regex
+scikit-learn
+scipy
+spacy
+wordninja 
+

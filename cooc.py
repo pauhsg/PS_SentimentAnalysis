@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    with open('./Results/vocab.pkl', 'rb') as f:
+    with open('./Data/produced/vocab.pkl', 'rb') as f:
         vocab = pickle.load(f)
     vocab_size = len(vocab)
     data, row, col = [], [], []
     counter = 1
-    for fn in ['./Datasets/twitter-datasets/train_pos.txt' , './Datasets/twitter-datasets/train_neg.txt' ]:
+    for fn in ['./Data/twitter-datasets/train_pos.txt' , './Data/twitter-datasets/train_neg.txt' ]:
         with open(fn) as f:
             for line in f:
                 tokens = [vocab.get(t, -1) for t in line.strip().split()]
@@ -26,28 +26,17 @@ def main():
                 if counter % 10000 == 0:
                     print(counter)
                 counter += 1
-                
-    print("\n nb unique val in row: ",len(Counter(row).keys())) # equals to list(set(words))
-    print("\n nb unique val in col",len(Counter(col).keys()))
-    print("taille de row:",len(row))
-    print("\n taille de col:",len(col))
-    print("\n taille de data:",len(data)) 
     
     cooc = coo_matrix((data, (row, col)))
-    
-    print("FIRST CoOC de taille:",cooc.shape)
-    plt.spy(cooc, markersize=0.01)
-    
     print("summing duplicates (this can take a while)")
     cooc.sum_duplicates()
+
+    # plot cooc matrix to verify sparsity
+    plt.spy(cooc, markersize=0.01)
     
-    print("SENCOND CoOC de taille:",cooc.shape)
-    
-    with open('./Results/cooc.pkl', 'wb') as f:
+    with open('./Data/produced/cooc.pkl', 'wb') as f:
         pickle.dump(cooc, f, pickle.HIGHEST_PROTOCOL)
     
-    plt.spy(cooc, markersize=0.01)
-
 
 if __name__ == '__main__':
     main()
